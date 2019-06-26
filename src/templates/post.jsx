@@ -11,7 +11,6 @@ import PostCover from "../components/PostCover";
 import PostInfo from "../components/PostInfo";
 import SocialLinks from "../components/SocialLinks";
 import PostSuggestions from "../components/PostSuggestions";
-import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 import "./b16-tomorrow-dark.css";
 import "./post.scss";
@@ -66,7 +65,6 @@ export default class PostTemplate extends React.Component {
             <title>{`${post.title} | ${config.siteTitle}`}</title>
             <link rel="canonical" href={`${config.siteUrl}${post.id}`} />
           </Helmet>
-          <SEO postPath={slug} postNode={postNode} postSEO />
           <PostCover
             postNode={postNode}
             coverHeight={coverHeight}
