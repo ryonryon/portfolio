@@ -3,7 +3,6 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../layout";
 import PostListing from "../components/PostListing";
-import SEO from "../components/SEO";
 import config from "../../data/SiteConfig";
 
 class Index extends React.Component {
@@ -16,7 +15,6 @@ class Index extends React.Component {
             <title>{config.siteTitle}</title>
             <link rel="canonical" href={`${config.siteUrl}`} />
           </Helmet>
-          <SEO postEdges={postEdges} />
           <PostListing postEdges={postEdges} />
         </div>
       </Layout>
