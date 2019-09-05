@@ -1,7 +1,18 @@
-.index {
-  text-align: center;
+.main-container {
+  widows: 100%;
 
-  h1 {
-    color: aqua;
+  .main-image {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .background-image {
+    width: 100%;
+  }
+
+  .main-text {
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 120%;
   }
 }
