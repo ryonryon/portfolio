@@ -6,7 +6,7 @@ import "./header.scss";
 
 const Header = () => (
   <nav>
-    <div className="header">
+    <div className="header box-shadow">
       <Link className="logo-container" to="/">
         {/* <Logo className="logo" /> */}Home
       </Link>
