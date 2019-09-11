@@ -1,18 +1,29 @@
-.main-container {
-  widows: 100%;
+.main-page {
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
 
-  .main-image {
-    max-width: 50%;
-    margin: 0 auto;
-  }
+  .main-div {
+    .main-image {
+      position: relative;
+      width: 40%;
+      margin: auto;
+      top: 0%;
+      left: 20%;
+    }
 
-  .background-image {
-    width: 100%;
-  }
+    .text-content {
+      position: relative;
+      right: 20%;
 
-  .main-text {
-    font-size: 36px;
-    letter-spacing: 2px;
-    line-height: 120%;
+      .text {
+        font-family: "Playfair Display";
+        color: #0d1d2a;
+        margin: 0;
+        font-size: 36px;
+        letter-spacing: 2px;
+        line-height: 120%;
+      }
+    }
   }
 }

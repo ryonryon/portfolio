@@ -4,19 +4,15 @@ import backgroundImage from "../assets/background.png";
 import "./index.scss";
 
 export default () => (
-  <div className="main-container">
-    <div className="main-image">
-      <img
-        className="background-image"
-        src={backgroundImage}
-        alt="background image"
-      />
-    </div>
-    <div className="main-content">
-      <h2 className="main-text">
-        Hi. I’m a Software Developer from Japan. <br />I want to help you to
-        build the product.
-      </h2>
+  <div className="main-page">
+    <div className="main-div">
+      <img className="main-image" src={backgroundImage} alt="main image" />
+      <div className="text-content">
+        <div className="text">
+          Hi. I’m a Software Developer from Japan. <br />I want to help you to
+          build the product.
+        </div>
+      </div>
     </div>
   </div>
 );
