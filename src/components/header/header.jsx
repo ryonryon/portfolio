@@ -11,9 +11,10 @@ const Header = () => (
         <img src={Logo} alt="logo image" />
       </Link>
       <div className="options">
+        <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link>
+        {/* <Link to="/blog">Blog</Link>
+        <Link to="/dynamic">Dynamic</Link> */}
       </div>
     </div>
   </nav>
