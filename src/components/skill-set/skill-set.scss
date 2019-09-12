@@ -1,0 +1,15 @@
+.skill-set {
+  display: inline-block;
+  margin: 8px 8px;
+
+  .skill-logo {
+    height: 24px;
+    width: 24px;
+    margin-right: 4px;
+    vertical-align: middle;
+  }
+
+  .skill-name {
+    color: black;
+  }
+}

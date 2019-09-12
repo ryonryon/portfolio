@@ -2,7 +2,23 @@ import React from "react";
 
 import avatarImage from "../assets/avatar.png";
 
+import javascriptLogo from "../assets/tech-logo/javascript.png";
+import typescriptLogo from "../assets/tech-logo/typescript.png"; // TODO
+import html5Logo from "../assets/tech-logo/html-5.png";
+import css3Logo from "../assets/tech-logo/css-3.png";
+import bootstrapLogo from "../assets/tech-logo/bootstrap.png";
+import csharpLogo from "../assets/tech-logo/c-sharp.png";
+import javaLogo from "../assets/tech-logo/java.png";
+import firebaseLogo from "../assets/tech-logo/firebase.png";
+import githubLogo from "../assets/tech-logo/github.png";
+import slackLogo from "../assets/tech-logo/slack.png";
+import sketchLogo from "../assets/tech-logo/sketch.png";
+import reactLogo from "../assets/tech-logo/react.png";
+import pythonLogo from "../assets/tech-logo/python.png";
+// import { javascriptLogo, pythonLogo } from "../assets/tech-logo/tech-logo"; // TODO
+
 import "./about.scss";
+import SkillSet from "../components/skill-set/skill-set";
 
 export default () => (
   <div>
@@ -26,14 +42,20 @@ export default () => (
       </div>
       <h2>SKILL</h2>
       <div className="skill-card card-shadow">
-        <p>
-          Skill skill Skill skill Skill skill Skill skill Skill skill Skill
-          skill Skill skill Skill skill Skill skill Skill skill Skill skill
-          Skill skill Skill skill Skill skill Skill skill Skill skill Skill
-          skill Skill skill Skill skill Skill skill Skill skill Skill skill
-          Skill skill Skill skill Skill skill Skill skill Skill skill Skill
-          skill Skill skill Skill skill Skill skill Skill skill Skill skill
-        </p>
+        <SkillSet skillLogoSrc={`${javascriptLogo}`} skillName="Javascript" />
+        <SkillSet skillLogoSrc={`${typescriptLogo}`} skillName="Typescript" />
+        <SkillSet skillLogoSrc={`${html5Logo}`} skillName="HTML5" />
+        <SkillSet skillLogoSrc={`${css3Logo}`} skillName="CSS" />
+        <SkillSet skillLogoSrc={`${bootstrapLogo}`} skillName="Bootstrap" />
+        <SkillSet skillLogoSrc={`${reactLogo}`} skillName="React" />
+        <SkillSet skillLogoSrc={`${pythonLogo}`} skillName="Python" />
+        <SkillSet skillLogoSrc={`${javaLogo}`} skillName="Java" />
+        <SkillSet skillLogoSrc={`${csharpLogo}`} skillName="C#" />
+        <SkillSet skillLogoSrc={`${firebaseLogo}`} skillName="Firebase" />
+        <br />
+        <SkillSet skillLogoSrc={`${githubLogo}`} skillName="Github" />
+        <SkillSet skillLogoSrc={`${slackLogo}`} skillName="Slack" />
+        <SkillSet skillLogoSrc={`${sketchLogo}`} skillName="Sketch" />
       </div>
     </div>
   </div>
