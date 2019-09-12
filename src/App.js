@@ -7,6 +7,7 @@ import Header from "./components/header/header";
 import Footer from "./components/footer/footer";
 
 import "./app.scss";
+import ContactMe from "./components/contact-me/contact-me";
 
 addPrefetchExcludes(["dynamic"]);
 
@@ -21,6 +22,7 @@ function App() {
             <Routes path="*" />
           </Router>
         </React.Suspense>
+        <ContactMe />
         <Footer />
       </div>
     </Root>
