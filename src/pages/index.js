@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImage from "../assets/background.png";
+import backgroundImage from "../assets/background.jpg";
 
 import "./index.scss";
 

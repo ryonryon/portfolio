@@ -1,6 +1,6 @@
 import React from "react";
 
-import avatarImage from "../assets/avatar.png";
+import avatarImage from "../assets/avatar.jpg";
 
 import javascriptLogo from "../assets/tech-logo/javascript.png";
 import typescriptLogo from "../assets/tech-logo/typescript.png"; // TODO
@@ -48,6 +48,8 @@ export default () => (
         <SkillSet skillLogoSrc={`${css3Logo}`} skillName="CSS" />
         <SkillSet skillLogoSrc={`${bootstrapLogo}`} skillName="Bootstrap" />
         <SkillSet skillLogoSrc={`${reactLogo}`} skillName="React" />
+        <SkillSet skillLogoSrc={``} skillName="Dart" />
+        <SkillSet skillLogoSrc={``} skillName="Flutter" />
         <SkillSet skillLogoSrc={`${pythonLogo}`} skillName="Python" />
         <SkillSet skillLogoSrc={`${javaLogo}`} skillName="Java" />
         <SkillSet skillLogoSrc={`${csharpLogo}`} skillName="C#" />

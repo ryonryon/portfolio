@@ -22,6 +22,14 @@
     ],
     "/Users/ryotogashi/portfolio/node_modules/react-static-plugin-reach-router/browser.api.js",
     "/Users/ryotogashi/portfolio/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    [
+      "react-static-plugin-sass",
+      {
+        "includePaths": [
+          "..."
+        ]
+      }
+    ],
     "/Users/ryotogashi/portfolio"
   ],
   "paths": {
