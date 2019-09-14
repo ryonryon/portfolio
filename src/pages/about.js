@@ -15,7 +15,6 @@ import slackLogo from "../assets/tech-logo/slack.png";
 import sketchLogo from "../assets/tech-logo/sketch.png";
 import reactLogo from "../assets/tech-logo/react.png";
 import pythonLogo from "../assets/tech-logo/python.png";
-// import { javascriptLogo, pythonLogo } from "../assets/tech-logo/tech-logo"; // TODO
 
 import "./about.scss";
 import SkillSet from "../components/skill-set/skill-set";
