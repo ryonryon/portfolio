@@ -1,7 +1,5 @@
 import React from "react";
 
-import avatarImage from "../assets/avatar.jpg";
-
 import javascriptLogo from "../assets/tech-logo/javascript.png";
 import typescriptLogo from "../assets/tech-logo/typescript.png"; // TODO
 import html5Logo from "../assets/tech-logo/html-5.png";
