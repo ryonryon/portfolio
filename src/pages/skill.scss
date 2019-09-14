@@ -1,0 +1,29 @@
+.skill-page {
+  width: 100%;
+  text-align: center;
+
+  h2 {
+    font-family: "Playfair Display";
+    color: #0d1d2a;
+    font-size: 36px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin: 0 0 1em 3em;
+  }
+
+  .skill-card {
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+
+    p {
+      font-size: 1.8rem;
+      text-align: center;
+      color: aqua;
+    }
+  }
+
+  .card-shadow {
+    box-shadow: 0 0 5px black;
+  }
+}
