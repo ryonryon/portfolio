@@ -9,6 +9,8 @@ export default () => (
     <h2>PROJECTS</h2>
     <div className="project-card-box">
       <ProjectCard />
+      <ProjectCard />
+      <ProjectCard />
     </div>
   </div>
 );
