@@ -15,7 +15,7 @@ const Footer = () => (
     <a href="https://github.com/ryotogashi">
       <img className="contact-icon" src={`${githubIcon}`} />
     </a>
-    <a href="https://github.com/ryotogashi">
+    <a href="https://www.linkedin.com/in/ryotogashi/">
       <img className="contact-icon" src={`${linkedinIcon}`} />
     </a>
     <a href="https://drive.google.com/file/d/1_PvAc43SeKEHPmmEPw-qlDFBtcMRu1HA/view">
