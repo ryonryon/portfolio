@@ -13,11 +13,19 @@
   .introduction-section {
     display: flex;
     flex-direction: row;
-    margin: 0 6em 6em 6em;
+    width: 80%;
+    margin: 6em auto;
 
     .image-box {
       .avatar-image {
         width: 70%;
+      }
+    }
+    .image-box1 {
+      width: 1000px;
+
+      .avatar-image {
+        width: 100%;
       }
     }
 
