@@ -1,6 +1,6 @@
 import React from "react";
 
-import ContactMeIcon from "../../assets/contactme.jpg";
+import ContactMeIcon from "../../assets/contact-me.png";
 
 import "./contact-me.scss";
 

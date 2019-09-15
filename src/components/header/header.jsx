@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "components/Router";
+import logo from "../../assets/logo.png";
 
-import Logo from "../../assets/rtlogo.jpg";
 import "./header.scss";
 
 const Header = () => (
   <nav>
     <div className="header box-shadow">
       <Link className="logo-container" to="/">
-        <img src={Logo} alt="logo image" />
+        <img src={logo} alt="logo image" />
       </Link>
       <div className="options">
         <Link to="/">Home</Link>
