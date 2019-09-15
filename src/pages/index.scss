@@ -1,26 +1,47 @@
 .main-page {
   width: 100%;
   text-align: center;
+  position: relative;
   margin-top: 40px;
+  height: 65vh;
+  min-height: 70vh;
 
-  .main-div {
+  .main-image {
+    position: absolute;
+    width: 40vw;
+    right: 10%;
+  }
+
+  .text-content {
+    position: absolute;
+    width: 55%;
+    bottom: 15%;
+    left: 4%;
+
+    h2 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+      line-height: 120%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
     .main-image {
+      min-width: 60vw;
       position: relative;
-      width: 40%;
-      margin: auto;
-      top: 0%;
-      left: 20%;
+      right: 0;
     }
 
     .text-content {
       position: relative;
-      right: 20%;
+      bottom: 0;
+      left: 0;
+      margin: 50px auto auto auto;
 
-      .text {
-        font-family: "Playfair Display";
-        color: #0d1d2a;
+      h2 {
         margin: 0;
-        font-size: 36px;
+        font-size: 24px;
         letter-spacing: 2px;
         line-height: 120%;
       }

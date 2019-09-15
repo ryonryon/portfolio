@@ -34,3 +34,9 @@ img {
 .content {
   // padding: 1rem;
 }
+
+.container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
