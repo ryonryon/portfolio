@@ -17,6 +17,8 @@ import flutterLogo from "../assets/tech-logo/flutter.png";
 import pythonLogo from "../assets/tech-logo/python.png";
 import swiftLogo from "../assets/tech-logo/swift.png";
 import sqlLogo from "../assets/tech-logo/sql.png";
+import babelLogo from "../assets/tech-logo/babel.png";
+import webpackLogo from "../assets/tech-logo/webpack.png";
 
 import SkillSet from "../components/skill-set/skill-set";
 
@@ -32,6 +34,7 @@ export default () => (
       <SkillSet skillLogoSrc={`${css3Logo}`} skillName="CSS" />
       <SkillSet skillLogoSrc={`${bootstrapLogo}`} skillName="Bootstrap" />
       <SkillSet skillLogoSrc={`${reactLogo}`} skillName="React" />
+      <br />
       <SkillSet skillLogoSrc={`${dartLogo}`} skillName="Dart" />
       <SkillSet skillLogoSrc={`${flutterLogo}`} skillName="Flutter" />
       <SkillSet skillLogoSrc={`${pythonLogo}`} skillName="Python" />
@@ -41,6 +44,8 @@ export default () => (
       <SkillSet skillLogoSrc={`${sqlLogo}`} skillName="SQL" />
       <SkillSet skillLogoSrc={`${firebaseLogo}`} skillName="Firebase" />
       <br />
+      <SkillSet skillLogoSrc={`${webpackLogo}`} skillName="Webpack" />
+      <SkillSet skillLogoSrc={`${babelLogo}`} skillName="Babel" />
       <SkillSet skillLogoSrc={`${githubLogo}`} skillName="Github" />
       <SkillSet skillLogoSrc={`${slackLogo}`} skillName="Slack" />
       <SkillSet skillLogoSrc={`${sketchLogo}`} skillName="Sketch" />
