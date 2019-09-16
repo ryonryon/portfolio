@@ -15,8 +15,6 @@ const Header = () => (
         <Link to="/about">About</Link>
         <Link to="/skill">Skill</Link>
         <Link to="/projects">Projects</Link>
-        {/* <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link> */}
       </div>
     </div>
   </nav>
