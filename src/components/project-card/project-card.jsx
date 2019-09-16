@@ -11,22 +11,20 @@ class ProjectCard extends Component {
     };
   }
 
-  onClickHandler() {
-    console.log("clicked");
+  onClickHandler = () => {
     this.setState({
-      isActive: !isActive
+      isActive: !this.state.isActive
     });
-
-    if (this.state.isActive) {
-      console.log("active");
-    } else {
-      console.log("inactive");
-    }
-  }
+  };
 
   render() {
     return (
-      <div className={`project-card box-shadow`} onClick={this.onClickHandler}>
+      <div
+        className={`project-card box-shadow ${
+          this.state.isActive ? "active-card" : ""
+        }`}
+        onClick={this.onClickHandler}
+      >
         card
       </div>
     );

@@ -4,16 +4,16 @@
   margin: 16px;
   padding: 16px;
   cursor: pointer;
-
-  &:hover {
-    background-color: aqua;
-  }
 }
 .box-shadow {
   box-shadow: 0 0 5px black;
 }
 
 .active-card {
+  position: absolute;
   background-color: aqua;
-  width: 100%;
+  width: 80%;
+  height: 60%;
+  margin: 0;
+  padding: 0;
 }
