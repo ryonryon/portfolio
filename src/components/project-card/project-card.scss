@@ -11,10 +11,8 @@
 
 .active-card {
   position: absolute;
-  background-color: aqua;
-  width: 80%;
-  height: 60%;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  transform: scale(4.5, 2);
+  background-color: white;
   z-index: 1;
 }

@@ -4,29 +4,29 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/avatar.2418943e.jpg (377 KiB)"
   ],
   "version": "4.39.3",
-  "hash": "5fdb8113172b4b7ab55b",
-  "time": 5399,
-  "builtAt": 1568618593930,
+  "hash": "925dee7de59eae4d943b",
+  "time": 3061,
+  "builtAt": 1568673976501,
   "publicPath": "/",
   "outputPath": "/Users/ryotogashi/portfolio/dist",
   "assetsByChunkName": {
     "styles": [
-      "styles.fa2a0612.css",
-      "templates/styles.fa2a0612.js"
+      "styles.3915cac8.css",
+      "templates/styles.3915cac8.js"
     ],
     "Users/ryotogashi/portfolio/src/containers/Post": "templates/Users/ryotogashi/portfolio/src/containers/Post.4664e5bd.js",
     "Users/ryotogashi/portfolio/src/pages/404": "templates/Users/ryotogashi/portfolio/src/pages/404.b580b2d9.js",
     "Users/ryotogashi/portfolio/src/pages/about": "templates/Users/ryotogashi/portfolio/src/pages/about.245e9254.js",
     "Users/ryotogashi/portfolio/src/pages/blog": "templates/Users/ryotogashi/portfolio/src/pages/blog.1336a098.js",
     "Users/ryotogashi/portfolio/src/pages/index": "templates/Users/ryotogashi/portfolio/src/pages/index.1082ad0f.js",
-    "Users/ryotogashi/portfolio/src/pages/projects": "templates/Users/ryotogashi/portfolio/src/pages/projects.c9b650c4.js",
+    "Users/ryotogashi/portfolio/src/pages/projects": "templates/Users/ryotogashi/portfolio/src/pages/projects.d33853b4.js",
     "Users/ryotogashi/portfolio/src/pages/skill": "templates/Users/ryotogashi/portfolio/src/pages/skill.517ab349.js",
-    "main": "main.5fdb8113.js",
+    "main": "main.925dee7d.js",
     "vendors~main": "templates/vendors~main.da742f6a.js"
   },
   "assets": [
     {
-      "name": "main.5fdb8113.js",
+      "name": "main.925dee7d.js",
       "size": 8596,
       "chunks": [
         8
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.fa2a0612.css",
-      "size": 3510,
+      "name": "styles.3915cac8.css",
+      "size": 3562,
       "chunks": [
         0
       ],
@@ -153,8 +153,8 @@
       "emitted": true
     },
     {
-      "name": "templates/Users/ryotogashi/portfolio/src/pages/projects.c9b650c4.js",
-      "size": 8261,
+      "name": "templates/Users/ryotogashi/portfolio/src/pages/projects.d33853b4.js",
+      "size": 8313,
       "chunks": [
         6
       ],
@@ -175,7 +175,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.fa2a0612.js",
+      "name": "templates/styles.3915cac8.js",
       "size": 280,
       "chunks": [
         0
@@ -206,10 +206,10 @@
         8
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
         "templates/vendors~main.da742f6a.js",
-        "main.5fdb8113.js"
+        "main.925dee7d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -223,10 +223,10 @@
         8
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
         "templates/vendors~main.da742f6a.js",
-        "main.5fdb8113.js"
+        "main.925dee7d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -247,8 +247,8 @@
         3
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
         "templates/Users/ryotogashi/portfolio/src/pages/about.245e9254.js"
       ],
       "children": {},
@@ -270,8 +270,8 @@
         5
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
         "templates/Users/ryotogashi/portfolio/src/pages/index.1082ad0f.js"
       ],
       "children": {},
@@ -283,9 +283,9 @@
         6
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
-        "templates/Users/ryotogashi/portfolio/src/pages/projects.c9b650c4.js"
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
+        "templates/Users/ryotogashi/portfolio/src/pages/projects.d33853b4.js"
       ],
       "children": {},
       "childAssets": {}
@@ -296,8 +296,8 @@
         7
       ],
       "assets": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js",
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js",
         "templates/Users/ryotogashi/portfolio/src/pages/skill.517ab349.js"
       ],
       "children": {},
@@ -321,15 +321,15 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: styles) (name: styles)",
-      "size": 4108,
+      "size": 4162,
       "names": [
         "styles"
       ],
       "files": [
-        "styles.fa2a0612.css",
-        "templates/styles.fa2a0612.js"
+        "styles.3915cac8.css",
+        "templates/styles.3915cac8.js"
       ],
-      "hash": "fa2a0612050e6fa5d98c",
+      "hash": "3915cac8741dc7d1376b",
       "siblings": [
         3,
         5,
@@ -451,9 +451,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -518,9 +518,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -585,9 +585,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -1472,9 +1472,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -1539,9 +1539,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -1579,7 +1579,7 @@
           "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/components/project-card/project-card.scss",
           "index": 162,
           "index2": 159,
-          "size": 163,
+          "size": 217,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1673,9 +1673,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -2073,9 +2073,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -2093,9 +2093,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -2223,9 +2223,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -2286,9 +2286,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -2306,9 +2306,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -2386,7 +2386,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:594-603"
+              "loc": "1:670-679"
             }
           ],
           "usedExports": [
@@ -2436,9 +2436,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -2499,9 +2499,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -2519,9 +2519,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -2599,7 +2599,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:630-636"
+              "loc": "1:706-712"
             }
           ],
           "usedExports": [
@@ -2649,9 +2649,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -2730,9 +2730,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -2811,9 +2811,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -2892,9 +2892,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -3313,9 +3313,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -3333,9 +3333,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -3463,9 +3463,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -3526,9 +3526,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -3546,9 +3546,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -3626,7 +3626,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:594-603"
+              "loc": "1:670-679"
             }
           ],
           "usedExports": [
@@ -3676,9 +3676,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -3739,9 +3739,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -3759,9 +3759,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -3839,7 +3839,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:630-636"
+              "loc": "1:706-712"
             }
           ],
           "usedExports": [
@@ -3889,9 +3889,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -3970,9 +3970,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -4051,9 +4051,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -4132,9 +4132,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -4270,14 +4270,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 9596,
+      "size": 9672,
       "names": [
         "Users/ryotogashi/portfolio/src/pages/projects"
       ],
       "files": [
-        "templates/Users/ryotogashi/portfolio/src/pages/projects.c9b650c4.js"
+        "templates/Users/ryotogashi/portfolio/src/pages/projects.d33853b4.js"
       ],
-      "hash": "c9b650c46b7d91ea7fe2",
+      "hash": "d33853b4c4db4aaa47ad",
       "siblings": [
         0
       ],
@@ -4295,7 +4295,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "index": 159,
           "index2": 164,
-          "size": 1954,
+          "size": 2030,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4356,7 +4356,7 @@
               "name": "/Users/ryotogashi/portfolio/src/pages/projects.js",
               "index": 159,
               "index2": 164,
-              "size": 647,
+              "size": 723,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4414,7 +4414,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",{className:\"title\"},\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+              "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",{className:\"title\"},\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null),React.createElement(ProjectCard,null),React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
             },
             {
               "id": null,
@@ -4475,6 +4475,24 @@
                   "type": "harmony import specifier",
                   "userRequest": "../components/project-card/project-card",
                   "loc": "1:554-565"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/project-card/project-card",
+                  "loc": "1:592-603"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/project-card/project-card",
+                  "loc": "1:630-641"
                 }
               ],
               "usedExports": [
@@ -4507,9 +4525,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -4527,9 +4545,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -4657,9 +4675,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -4720,9 +4738,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -4740,9 +4758,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -4820,7 +4838,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:594-603"
+              "loc": "1:670-679"
             }
           ],
           "usedExports": [
@@ -4870,9 +4888,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -4933,9 +4951,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -4953,9 +4971,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -5033,7 +5051,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:630-636"
+              "loc": "1:706-712"
             }
           ],
           "usedExports": [
@@ -5083,9 +5101,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -5164,9 +5182,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -5245,9 +5263,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -5326,9 +5344,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -5810,9 +5828,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -5830,9 +5848,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -5960,9 +5978,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 142,
@@ -6023,9 +6041,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -6043,9 +6061,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -6123,7 +6141,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:594-603"
+              "loc": "1:670-679"
             }
           ],
           "usedExports": [
@@ -6173,9 +6191,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 144,
@@ -6236,9 +6254,9 @@
             6,
             7
           ],
-          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "issuerId": 60,
-          "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+          "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "issuerId": 58,
+          "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "issuerPath": [
             {
               "id": 64,
@@ -6256,9 +6274,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             }
           ],
           "failed": false,
@@ -6336,7 +6354,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:630-636"
+              "loc": "1:706-712"
             }
           ],
           "usedExports": [
@@ -6386,9 +6404,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -6467,9 +6485,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -6548,9 +6566,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -6629,9 +6647,9 @@
               "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
             },
             {
-              "id": 60,
-              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+              "id": 58,
+              "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+              "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
             },
             {
               "id": 146,
@@ -8161,9 +8179,9 @@
         "main"
       ],
       "files": [
-        "main.5fdb8113.js"
+        "main.925dee7d.js"
       ],
-      "hash": "e3df227786ea8b20f7a9",
+      "hash": "f062d8305702335ca82c",
       "siblings": [
         0,
         9
@@ -10111,7 +10129,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:574-579"
+              "loc": "1:572-577"
             },
             {
               "moduleId": 63,
@@ -10121,6 +10139,24 @@
               "type": "harmony import specifier",
               "userRequest": "react",
               "loc": "1:610-615"
+            },
+            {
+              "moduleId": 63,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:650-655"
+            },
+            {
+              "moduleId": 63,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:686-691"
             },
             {
               "moduleId": 63,
@@ -21609,7 +21645,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:574-579"
+          "loc": "1:572-577"
         },
         {
           "moduleId": 63,
@@ -21619,6 +21655,24 @@
           "type": "harmony import specifier",
           "userRequest": "react",
           "loc": "1:610-615"
+        },
+        {
+          "moduleId": 63,
+          "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+          "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:650-655"
+        },
+        {
+          "moduleId": 63,
+          "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+          "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:686-691"
         },
         {
           "moduleId": 63,
@@ -28768,7 +28822,7 @@
       "name": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
       "index": 159,
       "index2": 164,
-      "size": 1954,
+      "size": 2030,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28829,7 +28883,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/projects.js",
           "index": 159,
           "index2": 164,
-          "size": 647,
+          "size": 723,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -28887,7 +28941,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",{className:\"title\"},\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+          "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",{className:\"title\"},\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null),React.createElement(ProjectCard,null),React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
         },
         {
           "id": null,
@@ -28948,6 +29002,24 @@
               "type": "harmony import specifier",
               "userRequest": "../components/project-card/project-card",
               "loc": "1:554-565"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "type": "harmony import specifier",
+              "userRequest": "../components/project-card/project-card",
+              "loc": "1:592-603"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "type": "harmony import specifier",
+              "userRequest": "../components/project-card/project-card",
+              "loc": "1:630-641"
             }
           ],
           "usedExports": [
@@ -33578,9 +33650,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 142,
@@ -33645,9 +33717,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 144,
@@ -33712,9 +33784,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -34144,9 +34216,9 @@
         6,
         7
       ],
-      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-      "issuerId": 60,
-      "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+      "issuerId": 58,
+      "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
       "issuerPath": [
         {
           "id": 64,
@@ -34164,9 +34236,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         }
       ],
       "failed": false,
@@ -34294,9 +34366,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 142,
@@ -34357,9 +34429,9 @@
         6,
         7
       ],
-      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-      "issuerId": 60,
-      "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+      "issuerId": 58,
+      "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
       "issuerPath": [
         {
           "id": 64,
@@ -34377,9 +34449,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         }
       ],
       "failed": false,
@@ -34457,7 +34529,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/contact-me/contact-me",
-          "loc": "1:594-603"
+          "loc": "1:670-679"
         }
       ],
       "usedExports": [
@@ -34507,9 +34579,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 144,
@@ -34570,9 +34642,9 @@
         6,
         7
       ],
-      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-      "issuerId": 60,
-      "issuerName": "/Users/ryotogashi/portfolio/src/pages/index.js",
+      "issuer": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+      "issuerId": 58,
+      "issuerName": "/Users/ryotogashi/portfolio/src/pages/about.js",
       "issuerPath": [
         {
           "id": 64,
@@ -34590,9 +34662,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         }
       ],
       "failed": false,
@@ -34670,7 +34742,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/footer/footer",
-          "loc": "1:630-636"
+          "loc": "1:706-712"
         }
       ],
       "usedExports": [
@@ -34720,9 +34792,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -34801,9 +34873,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -34882,9 +34954,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -34963,9 +35035,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -37101,9 +37173,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 144,
@@ -37168,9 +37240,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 146,
@@ -37235,9 +37307,9 @@
           "name": "/Users/ryotogashi/portfolio/artifacts/react-static-templates.js"
         },
         {
-          "id": 60,
-          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "name": "/Users/ryotogashi/portfolio/src/pages/index.js"
+          "id": 58,
+          "identifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/about.js",
+          "name": "/Users/ryotogashi/portfolio/src/pages/about.js"
         },
         {
           "id": 142,
@@ -37275,7 +37347,7 @@
       "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/components/project-card/project-card.scss",
       "index": 162,
       "index2": 159,
-      "size": 163,
+      "size": 217,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -38467,14 +38539,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 2715,
+          "size": 2769,
           "names": [
             "extract-css-chunks-webpack-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "eeaa922b9519c4f29aa9",
+          "hash": "4ee699ade165c6016d5f",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -38486,7 +38558,7 @@
               "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/components/project-card/project-card.scss",
               "index": 0,
               "index2": 1,
-              "size": 309,
+              "size": 363,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -38519,7 +38591,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{background-color:aqua;width:100%}\\n\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{position:absolute;margin:auto;transform:scale(4.5, 2);background-color:white;z-index:1}\\n\", \"\"]);\n\n"
             },
             {
               "id": 1,
@@ -38589,7 +38661,7 @@
           "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/components/project-card/project-card.scss",
           "index": 0,
           "index2": 1,
-          "size": 309,
+          "size": 363,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -38622,7 +38694,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{background-color:aqua;width:100%}\\n\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{position:absolute;margin:auto;transform:scale(4.5, 2);background-color:white;z-index:1}\\n\", \"\"]);\n\n"
         },
         {
           "id": 1,

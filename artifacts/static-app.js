@@ -1856,7 +1856,7 @@ var projects = __webpack_require__(90);
     className: "title"
   }, "PROJECTS"), external_react_default.a.createElement("div", {
     className: "project-card-box"
-  }, external_react_default.a.createElement(project_card_project_card, null))), external_react_default.a.createElement(contact_me["a" /* default */], null), external_react_default.a.createElement(footer["a" /* default */], null));
+  }, external_react_default.a.createElement(project_card_project_card, null), external_react_default.a.createElement(project_card_project_card, null), external_react_default.a.createElement(project_card_project_card, null))), external_react_default.a.createElement(contact_me["a" /* default */], null), external_react_default.a.createElement(footer["a" /* default */], null));
 });
 
 /***/ }),
@@ -2911,7 +2911,7 @@ exports.push([module.i, ".main-page{width:100%;text-align:center;position:relati
 
 exports = module.exports = __webpack_require__(4)(false);
 // Module
-exports.push([module.i, ".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{background-color:aqua;width:100%}\n", ""]);
+exports.push([module.i, ".project-card{height:300px;width:250px;margin:16px;padding:16px;cursor:pointer}.box-shadow{box-shadow:0 0 5px black}.active-card{position:absolute;margin:auto;transform:scale(4.5, 2);background-color:white;z-index:1}\n", ""]);
 
 
 
