@@ -16,10 +16,12 @@ export default () => (
       <div className="introduction-section">
         <div className="text-box">
           <p>
-            Lorem ipsum dolor sit amet, vehicula a. Ultricies nec, velit tellus.
-            Lectus id, in consequat, ridiculus porttitor vel. Massa sit, quam
-            non wisi. Quis pellentesque lacus, quisque magna, vestibulum amet.
-            Odio lectus accumsan, augue elementum et.
+            I believe that constant learning and self-improvement are basis for
+            a healthy life and a succesful career. With this in mind, studying
+            and reading books are some of the activities that consume most of my
+            daily life. Enhancing interpersonal skills and finding humanity are
+            also good ways to evolve as a person and a professional, so meeting
+            friends and co-workers have a big importance for me
           </p>
         </div>
         <div className="image-box1">
