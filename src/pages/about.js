@@ -12,7 +12,7 @@ export default () => (
   <div>
     <Header />
     <div className="about-page">
-      <h2>WHOAMI</h2>
+      <h2 className="title">WHOAMI</h2>
       <div className="introduction-section">
         <div className="text-box">
           <p>

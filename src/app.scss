@@ -31,12 +31,10 @@ img {
   max-width: 100%;
 }
 
-.content {
-  // padding: 1rem;
-}
-
-.container {
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
+.title {
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 1em auto;
+  width: 80%;
 }

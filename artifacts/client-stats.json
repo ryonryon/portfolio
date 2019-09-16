@@ -4,29 +4,29 @@
     "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  static/avatar.2418943e.jpg (377 KiB)"
   ],
   "version": "4.39.3",
-  "hash": "f182cb2fbcce4051a02a",
-  "time": 2022,
-  "builtAt": 1568556854122,
+  "hash": "7776b63d43d6e37cda2e",
+  "time": 3181,
+  "builtAt": 1568607429200,
   "publicPath": "/",
   "outputPath": "/Users/ryotogashi/portfolio/dist",
   "assetsByChunkName": {
     "styles": [
-      "styles.4ae82718.css",
-      "templates/styles.4ae82718.js"
+      "styles.69bbac9a.css",
+      "templates/styles.69bbac9a.js"
     ],
     "Users/ryotogashi/portfolio/src/containers/Post": "templates/Users/ryotogashi/portfolio/src/containers/Post.bb736913.js",
     "Users/ryotogashi/portfolio/src/pages/404": "templates/Users/ryotogashi/portfolio/src/pages/404.bef44ac0.js",
-    "Users/ryotogashi/portfolio/src/pages/about": "templates/Users/ryotogashi/portfolio/src/pages/about.487d6054.js",
+    "Users/ryotogashi/portfolio/src/pages/about": "templates/Users/ryotogashi/portfolio/src/pages/about.d5f28741.js",
     "Users/ryotogashi/portfolio/src/pages/blog": "templates/Users/ryotogashi/portfolio/src/pages/blog.fb5a044a.js",
-    "Users/ryotogashi/portfolio/src/pages/index": "templates/Users/ryotogashi/portfolio/src/pages/index.eae1ed8e.js",
-    "Users/ryotogashi/portfolio/src/pages/projects": "templates/Users/ryotogashi/portfolio/src/pages/projects.ce894509.js",
+    "Users/ryotogashi/portfolio/src/pages/index": "templates/Users/ryotogashi/portfolio/src/pages/index.f4f70704.js",
+    "Users/ryotogashi/portfolio/src/pages/projects": "templates/Users/ryotogashi/portfolio/src/pages/projects.25c4a8d0.js",
     "Users/ryotogashi/portfolio/src/pages/skill": "templates/Users/ryotogashi/portfolio/src/pages/skill.253ea751.js",
-    "main": "main.f182cb2f.js",
+    "main": "main.7776b63d.js",
     "vendors~main": "templates/vendors~main.33a29ce9.js"
   },
   "assets": [
     {
-      "name": "main.f182cb2f.js",
+      "name": "main.7776b63d.js",
       "size": 8596,
       "chunks": [
         8
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.4ae82718.css",
-      "size": 3514,
+      "name": "styles.69bbac9a.css",
+      "size": 3815,
       "chunks": [
         0
       ],
@@ -120,8 +120,8 @@
       "emitted": true
     },
     {
-      "name": "templates/Users/ryotogashi/portfolio/src/pages/about.487d6054.js",
-      "size": 8827,
+      "name": "templates/Users/ryotogashi/portfolio/src/pages/about.d5f28741.js",
+      "size": 8975,
       "chunks": [
         3
       ],
@@ -142,8 +142,8 @@
       "emitted": true
     },
     {
-      "name": "templates/Users/ryotogashi/portfolio/src/pages/index.eae1ed8e.js",
-      "size": 7911,
+      "name": "templates/Users/ryotogashi/portfolio/src/pages/index.f4f70704.js",
+      "size": 7848,
       "chunks": [
         5
       ],
@@ -153,8 +153,8 @@
       "emitted": true
     },
     {
-      "name": "templates/Users/ryotogashi/portfolio/src/pages/projects.ce894509.js",
-      "size": 7944,
+      "name": "templates/Users/ryotogashi/portfolio/src/pages/projects.25c4a8d0.js",
+      "size": 8214,
       "chunks": [
         6
       ],
@@ -175,7 +175,7 @@
       "emitted": true
     },
     {
-      "name": "templates/styles.4ae82718.js",
+      "name": "templates/styles.69bbac9a.js",
       "size": 280,
       "chunks": [
         0
@@ -206,10 +206,10 @@
         8
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
         "templates/vendors~main.33a29ce9.js",
-        "main.f182cb2f.js"
+        "main.7776b63d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -223,10 +223,10 @@
         8
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
         "templates/vendors~main.33a29ce9.js",
-        "main.f182cb2f.js"
+        "main.7776b63d.js"
       ],
       "children": {},
       "childAssets": {}
@@ -247,9 +247,9 @@
         3
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
-        "templates/Users/ryotogashi/portfolio/src/pages/about.487d6054.js"
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
+        "templates/Users/ryotogashi/portfolio/src/pages/about.d5f28741.js"
       ],
       "children": {},
       "childAssets": {}
@@ -270,9 +270,9 @@
         5
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
-        "templates/Users/ryotogashi/portfolio/src/pages/index.eae1ed8e.js"
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
+        "templates/Users/ryotogashi/portfolio/src/pages/index.f4f70704.js"
       ],
       "children": {},
       "childAssets": {}
@@ -283,9 +283,9 @@
         6
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
-        "templates/Users/ryotogashi/portfolio/src/pages/projects.ce894509.js"
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
+        "templates/Users/ryotogashi/portfolio/src/pages/projects.25c4a8d0.js"
       ],
       "children": {},
       "childAssets": {}
@@ -296,8 +296,8 @@
         7
       ],
       "assets": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js",
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js",
         "templates/Users/ryotogashi/portfolio/src/pages/skill.253ea751.js"
       ],
       "children": {},
@@ -321,15 +321,15 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: styles) (name: styles)",
-      "size": 4109,
+      "size": 4413,
       "names": [
         "styles"
       ],
       "files": [
-        "styles.4ae82718.css",
-        "templates/styles.4ae82718.js"
+        "styles.69bbac9a.css",
+        "templates/styles.69bbac9a.js"
       ],
-      "hash": "4ae827185720d099727d",
+      "hash": "69bbac9afa027ed6c78a",
       "siblings": [
         3,
         5,
@@ -1130,7 +1130,7 @@
           "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/app.scss (1)",
           "index": 130,
           "index2": 125,
-          "size": 219,
+          "size": 277,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1254,7 +1254,7 @@
           "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/pages/index.scss",
           "index": 158,
           "index2": 156,
-          "size": 355,
+          "size": 601,
           "built": false,
           "optional": false,
           "prefetched": false,
@@ -1969,14 +1969,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 9428,
+      "size": 9576,
       "names": [
         "Users/ryotogashi/portfolio/src/pages/about"
       ],
       "files": [
-        "templates/Users/ryotogashi/portfolio/src/pages/about.487d6054.js"
+        "templates/Users/ryotogashi/portfolio/src/pages/about.d5f28741.js"
       ],
-      "hash": "487d605438951531c893",
+      "hash": "d5f28741f43a3e39b848",
       "siblings": [
         0
       ],
@@ -1994,7 +1994,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "index": 134,
           "index2": 153,
-          "size": 1729,
+          "size": 1877,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -2054,7 +2054,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import avatarImage from\"../assets/avatar.jpg\";import avatar1Image from\"../assets/avatar1.jpg\";import\"./about.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"about-page\"},React.createElement(\"h2\",null,\"WHOAMI\"),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, vehicula a. Ultricies nec, velit tellus. Lectus id, in consequat, ridiculus porttitor vel. Massa sit, quam non wisi. Quis pellentesque lacus, quisque magna, vestibulum amet. Odio lectus accumsan, augue elementum et.\")),React.createElement(\"div\",{className:\"image-box1\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatar1Image,alt:\"avatar\"}))),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"image-box\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatarImage,alt:\"avatar\"})),React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Borned and raised in a small town with big-city work ethics, I am a self-taught software engineer, who is mature beyond my years, with six years of work experience. Having an awesome mentor plus self-employed experiences, the contractor sends me to Hokkaido as a representative for the project. My experience working with multinational helped shape my logical thinking.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+          "source": "import React from\"react\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import avatarImage from\"../assets/avatar.jpg\";import avatar1Image from\"../assets/avatar1.jpg\";import\"./about.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"about-page\"},React.createElement(\"h2\",null,\"WHOAMI\"),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"I believe that constant learning and self-improvement are basis for a healthy life and a succesful career. With this in mind, studying and reading books are some of the activities that consume most of my daily life. Enhancing interpersonal skills and finding humanity are also good ways to evolve as a person and a professional, so meeting friends and co-workers have a big importance for me\")),React.createElement(\"div\",{className:\"image-box1\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatar1Image,alt:\"avatar\"}))),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"image-box\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatarImage,alt:\"avatar\"})),React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Borned and raised in a small town with big-city work ethics, I am a self-taught software engineer, who is mature beyond my years, with six years of work experience. Having an awesome mentor plus self-employed experiences, the contractor sends me to Hokkaido as a representative for the project. My experience working with multinational helped shape my logical thinking.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
         },
         {
           "id": 142,
@@ -2332,7 +2332,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:1676-1685"
+              "loc": "1:1824-1833"
             },
             {
               "moduleId": 58,
@@ -2350,7 +2350,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:785-794"
+              "loc": "1:720-729"
             },
             {
               "moduleId": 60,
@@ -2386,7 +2386,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:579-588"
+              "loc": "1:655-664"
             }
           ],
           "usedExports": [
@@ -2545,7 +2545,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:1712-1718"
+              "loc": "1:1860-1866"
             },
             {
               "moduleId": 58,
@@ -2563,7 +2563,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:821-827"
+              "loc": "1:756-762"
             },
             {
               "moduleId": 60,
@@ -2599,7 +2599,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:615-621"
+              "loc": "1:691-697"
             }
           ],
           "usedExports": [
@@ -2998,7 +2998,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../assets/avatar.jpg",
-              "loc": "1:1174-1185"
+              "loc": "1:1322-1333"
             }
           ],
           "usedExports": [
@@ -3073,7 +3073,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../assets/avatar1.jpg",
-              "loc": "1:977-989"
+              "loc": "1:1125-1137"
             }
           ],
           "usedExports": [
@@ -3209,14 +3209,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 8468,
+      "size": 8403,
       "names": [
         "Users/ryotogashi/portfolio/src/pages/index"
       ],
       "files": [
-        "templates/Users/ryotogashi/portfolio/src/pages/index.eae1ed8e.js"
+        "templates/Users/ryotogashi/portfolio/src/pages/index.f4f70704.js"
       ],
-      "hash": "eae1ed8e9f563816bad5",
+      "hash": "f4f70704bb449de20761",
       "siblings": [
         0
       ],
@@ -3234,7 +3234,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "index": 155,
           "index2": 158,
-          "size": 838,
+          "size": 773,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -3294,7 +3294,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import backgroundImage from\"../assets/background.jpg\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./index.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"main-page\"},React.createElement(\"div\",{className:\"main-div\"},React.createElement(\"img\",{className:\"main-image\",src:backgroundImage,alt:\"main image\"}),React.createElement(\"div\",{className:\"text-content\"},React.createElement(\"div\",{className:\"text\"},\"Hi. I\\u2019m a Software Developer from Japan. \",React.createElement(\"br\",null),\"I want to help you to build the product.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+          "source": "import React from\"react\";import backgroundImage from\"../assets/background.jpg\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./index.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"main-page\"},React.createElement(\"img\",{className:\"main-image\",src:backgroundImage,alt:\"main image\"}),React.createElement(\"div\",{className:\"text-content\"},React.createElement(\"h2\",null,\"Hi. I\\u2019m a Software Developer from Japan. \",React.createElement(\"br\",null),\"I want to help you to build the product.\"))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
         },
         {
           "id": 142,
@@ -3572,7 +3572,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:1676-1685"
+              "loc": "1:1824-1833"
             },
             {
               "moduleId": 58,
@@ -3590,7 +3590,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:785-794"
+              "loc": "1:720-729"
             },
             {
               "moduleId": 60,
@@ -3626,7 +3626,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:579-588"
+              "loc": "1:655-664"
             }
           ],
           "usedExports": [
@@ -3785,7 +3785,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:1712-1718"
+              "loc": "1:1860-1866"
             },
             {
               "moduleId": 58,
@@ -3803,7 +3803,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:821-827"
+              "loc": "1:756-762"
             },
             {
               "moduleId": 60,
@@ -3839,7 +3839,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:615-621"
+              "loc": "1:691-697"
             }
           ],
           "usedExports": [
@@ -4238,7 +4238,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../assets/background.jpg",
-              "loc": "1:505-520"
+              "loc": "1:456-471"
             }
           ],
           "usedExports": [
@@ -4270,14 +4270,14 @@
       "rendered": true,
       "initial": false,
       "entry": false,
-      "size": 9084,
+      "size": 9432,
       "names": [
         "Users/ryotogashi/portfolio/src/pages/projects"
       ],
       "files": [
-        "templates/Users/ryotogashi/portfolio/src/pages/projects.ce894509.js"
+        "templates/Users/ryotogashi/portfolio/src/pages/projects.25c4a8d0.js"
       ],
-      "hash": "ce894509deaee0d31b42",
+      "hash": "25c4a8d027d7a884392f",
       "siblings": [
         0
       ],
@@ -4295,7 +4295,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "index": 159,
           "index2": 164,
-          "size": 1530,
+          "size": 1878,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4354,7 +4354,7 @@
               "name": "/Users/ryotogashi/portfolio/src/pages/projects.js",
               "index": 159,
               "index2": 164,
-              "size": 632,
+              "size": 708,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4412,7 +4412,7 @@
                 "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
               ],
               "depth": 3,
-              "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",null,\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+              "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",null,\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null),React.createElement(ProjectCard,null),React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
             },
             {
               "id": null,
@@ -4420,7 +4420,7 @@
               "name": "/Users/ryotogashi/portfolio/src/components/project-card/project-card.jsx",
               "index": 160,
               "index2": 161,
-              "size": 843,
+              "size": 1115,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -4473,6 +4473,24 @@
                   "type": "harmony import specifier",
                   "userRequest": "../components/project-card/project-card",
                   "loc": "1:539-550"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/project-card/project-card",
+                  "loc": "1:577-588"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "../components/project-card/project-card",
+                  "loc": "1:615-626"
                 }
               ],
               "usedExports": [
@@ -4483,7 +4501,7 @@
               ],
               "optimizationBailout": [],
               "depth": 4,
-              "source": "import _classCallCheck from\"@babel/runtime/helpers/classCallCheck\";import _createClass from\"@babel/runtime/helpers/createClass\";import _possibleConstructorReturn from\"@babel/runtime/helpers/possibleConstructorReturn\";import _getPrototypeOf from\"@babel/runtime/helpers/getPrototypeOf\";import _inherits from\"@babel/runtime/helpers/inherits\";import React,{Component}from\"react\";import\"./project-card.scss\";var ProjectCard=/*#__PURE__*/function(_Component){_inherits(ProjectCard,_Component);function ProjectCard(){_classCallCheck(this,ProjectCard);return _possibleConstructorReturn(this,_getPrototypeOf(ProjectCard).apply(this,arguments));}_createClass(ProjectCard,[{key:\"render\",value:function render(){return React.createElement(\"div\",{className:\"project-card box-shadow\"},\"card\");}}]);return ProjectCard;}(Component);export default ProjectCard;"
+              "source": "import _classCallCheck from\"@babel/runtime/helpers/classCallCheck\";import _createClass from\"@babel/runtime/helpers/createClass\";import _possibleConstructorReturn from\"@babel/runtime/helpers/possibleConstructorReturn\";import _getPrototypeOf from\"@babel/runtime/helpers/getPrototypeOf\";import _inherits from\"@babel/runtime/helpers/inherits\";import React,{Component}from\"react\";import\"./project-card.scss\";var ProjectCard=/*#__PURE__*/function(_Component){_inherits(ProjectCard,_Component);function ProjectCard(props){var _this;_classCallCheck(this,ProjectCard);_this=_possibleConstructorReturn(this,_getPrototypeOf(ProjectCard).call(this,props));_this.state={isActive:false};return _this;}_createClass(ProjectCard,[{key:\"onClickHandler\",value:function onClickHandler(){console.log(\"clicked\");this.setState({isActive:!isActive});if(this.state.isActive){console.log(\"active\");}else{console.log(\"inactive\");}}},{key:\"render\",value:function render(){return React.createElement(\"div\",{className:\"project-card box-shadow\",onClick:this.onClickHandler},\"card\");}}]);return ProjectCard;}(Component);export default ProjectCard;"
             }
           ],
           "filteredModules": 0
@@ -4764,7 +4782,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:1676-1685"
+              "loc": "1:1824-1833"
             },
             {
               "moduleId": 58,
@@ -4782,7 +4800,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:785-794"
+              "loc": "1:720-729"
             },
             {
               "moduleId": 60,
@@ -4818,7 +4836,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:579-588"
+              "loc": "1:655-664"
             }
           ],
           "usedExports": [
@@ -4977,7 +4995,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:1712-1718"
+              "loc": "1:1860-1866"
             },
             {
               "moduleId": 58,
@@ -4995,7 +5013,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:821-827"
+              "loc": "1:756-762"
             },
             {
               "moduleId": 60,
@@ -5031,7 +5049,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:615-621"
+              "loc": "1:691-697"
             }
           ],
           "usedExports": [
@@ -6067,7 +6085,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:1676-1685"
+              "loc": "1:1824-1833"
             },
             {
               "moduleId": 58,
@@ -6085,7 +6103,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:785-794"
+              "loc": "1:720-729"
             },
             {
               "moduleId": 60,
@@ -6121,7 +6139,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/contact-me/contact-me",
-              "loc": "1:579-588"
+              "loc": "1:655-664"
             }
           ],
           "usedExports": [
@@ -6280,7 +6298,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:1712-1718"
+              "loc": "1:1860-1866"
             },
             {
               "moduleId": 58,
@@ -6298,7 +6316,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:821-827"
+              "loc": "1:756-762"
             },
             {
               "moduleId": 60,
@@ -6334,7 +6352,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "../components/footer/footer",
-              "loc": "1:615-621"
+              "loc": "1:691-697"
             }
           ],
           "usedExports": [
@@ -8159,9 +8177,9 @@
         "main"
       ],
       "files": [
-        "main.f182cb2f.js"
+        "main.7776b63d.js"
       ],
-      "hash": "ca06911ac597720940d4",
+      "hash": "a7183117276504e0250b",
       "siblings": [
         0,
         9
@@ -9488,7 +9506,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:870-875"
+              "loc": "1:1018-1023"
             },
             {
               "moduleId": 56,
@@ -9497,7 +9515,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:921-926"
+              "loc": "1:1069-1074"
             },
             {
               "moduleId": 56,
@@ -9506,7 +9524,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1007-1012"
+              "loc": "1:1155-1160"
             },
             {
               "moduleId": 56,
@@ -9515,7 +9533,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1068-1073"
+              "loc": "1:1216-1221"
             },
             {
               "moduleId": 56,
@@ -9524,7 +9542,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1118-1123"
+              "loc": "1:1266-1271"
             },
             {
               "moduleId": 56,
@@ -9533,7 +9551,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1202-1207"
+              "loc": "1:1350-1355"
             },
             {
               "moduleId": 56,
@@ -9542,7 +9560,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1251-1256"
+              "loc": "1:1399-1404"
             },
             {
               "moduleId": 56,
@@ -9551,7 +9569,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1656-1661"
+              "loc": "1:1804-1809"
             },
             {
               "moduleId": 56,
@@ -9560,7 +9578,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:1692-1697"
+              "loc": "1:1840-1845"
             },
             {
               "moduleId": 57,
@@ -9632,7 +9650,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:451-456"
+              "loc": "1:491-496"
             },
             {
               "moduleId": 58,
@@ -9641,7 +9659,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:540-545"
+              "loc": "1:544-549"
             },
             {
               "moduleId": 58,
@@ -9650,7 +9668,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:593-598"
+              "loc": "1:623-628"
             },
             {
               "moduleId": 58,
@@ -9659,7 +9677,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:687-692"
+              "loc": "1:700-705"
             },
             {
               "moduleId": 58,
@@ -9668,16 +9686,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:765-770"
-            },
-            {
-              "moduleId": 58,
-              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-              "module": "/Users/ryotogashi/portfolio/src/pages/index.js",
-              "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "1:801-806"
+              "loc": "1:736-741"
             },
             {
               "moduleId": 59,
@@ -10118,7 +10127,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:559-564"
+              "loc": "1:557-562"
             },
             {
               "moduleId": 61,
@@ -10136,7 +10145,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:707-712"
+              "loc": "1:635-640"
             },
             {
               "moduleId": 61,
@@ -10145,7 +10154,25 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "1:805-814"
+              "loc": "1:671-676"
+            },
+            {
+              "moduleId": 61,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:951-956"
+            },
+            {
+              "moduleId": 61,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "1:1077-1086"
             },
             {
               "moduleId": 65,
@@ -15502,7 +15529,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/classCallCheck",
-              "loc": "1:510-525"
+              "loc": "1:525-540"
             },
             {
               "moduleId": 72,
@@ -15587,7 +15614,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/createClass",
-              "loc": "1:636-648"
+              "loc": "1:687-699"
             },
             {
               "moduleId": 72,
@@ -15672,7 +15699,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/possibleConstructorReturn",
-              "loc": "1:551-577"
+              "loc": "1:565-591"
             },
             {
               "moduleId": 72,
@@ -15757,7 +15784,7 @@
               "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
               "type": "harmony import specifier",
               "userRequest": "@babel/runtime/helpers/getPrototypeOf",
-              "loc": "1:583-598"
+              "loc": "1:597-612"
             },
             {
               "moduleId": 72,
@@ -20959,7 +20986,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:870-875"
+          "loc": "1:1018-1023"
         },
         {
           "moduleId": 56,
@@ -20968,7 +20995,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:921-926"
+          "loc": "1:1069-1074"
         },
         {
           "moduleId": 56,
@@ -20977,7 +21004,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1007-1012"
+          "loc": "1:1155-1160"
         },
         {
           "moduleId": 56,
@@ -20986,7 +21013,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1068-1073"
+          "loc": "1:1216-1221"
         },
         {
           "moduleId": 56,
@@ -20995,7 +21022,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1118-1123"
+          "loc": "1:1266-1271"
         },
         {
           "moduleId": 56,
@@ -21004,7 +21031,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1202-1207"
+          "loc": "1:1350-1355"
         },
         {
           "moduleId": 56,
@@ -21013,7 +21040,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1251-1256"
+          "loc": "1:1399-1404"
         },
         {
           "moduleId": 56,
@@ -21022,7 +21049,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1656-1661"
+          "loc": "1:1804-1809"
         },
         {
           "moduleId": 56,
@@ -21031,7 +21058,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:1692-1697"
+          "loc": "1:1840-1845"
         },
         {
           "moduleId": 57,
@@ -21103,7 +21130,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:451-456"
+          "loc": "1:491-496"
         },
         {
           "moduleId": 58,
@@ -21112,7 +21139,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:540-545"
+          "loc": "1:544-549"
         },
         {
           "moduleId": 58,
@@ -21121,7 +21148,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:593-598"
+          "loc": "1:623-628"
         },
         {
           "moduleId": 58,
@@ -21130,7 +21157,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:687-692"
+          "loc": "1:700-705"
         },
         {
           "moduleId": 58,
@@ -21139,16 +21166,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:765-770"
-        },
-        {
-          "moduleId": 58,
-          "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/index.js",
-          "module": "/Users/ryotogashi/portfolio/src/pages/index.js",
-          "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "1:801-806"
+          "loc": "1:736-741"
         },
         {
           "moduleId": 59,
@@ -21589,7 +21607,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:559-564"
+          "loc": "1:557-562"
         },
         {
           "moduleId": 61,
@@ -21607,7 +21625,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:707-712"
+          "loc": "1:635-640"
         },
         {
           "moduleId": 61,
@@ -21616,7 +21634,25 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "1:805-814"
+          "loc": "1:671-676"
+        },
+        {
+          "moduleId": 61,
+          "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+          "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:951-956"
+        },
+        {
+          "moduleId": 61,
+          "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js 5638ceb9ac543b551b41730ebb6f375e",
+          "module": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "1:1077-1086"
         },
         {
           "moduleId": 65,
@@ -27487,7 +27523,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/classCallCheck",
-          "loc": "1:510-525"
+          "loc": "1:525-540"
         },
         {
           "moduleId": 72,
@@ -27572,7 +27608,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/createClass",
-          "loc": "1:636-648"
+          "loc": "1:687-699"
         },
         {
           "moduleId": 72,
@@ -27657,7 +27693,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/possibleConstructorReturn",
-          "loc": "1:551-577"
+          "loc": "1:565-591"
         },
         {
           "moduleId": 72,
@@ -27742,7 +27778,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "@babel/runtime/helpers/getPrototypeOf",
-          "loc": "1:583-598"
+          "loc": "1:597-612"
         },
         {
           "moduleId": 72,
@@ -27921,7 +27957,7 @@
       "name": "/Users/ryotogashi/portfolio/src/pages/about.js",
       "index": 134,
       "index2": 153,
-      "size": 1729,
+      "size": 1877,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -27981,7 +28017,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import React from\"react\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import avatarImage from\"../assets/avatar.jpg\";import avatar1Image from\"../assets/avatar1.jpg\";import\"./about.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"about-page\"},React.createElement(\"h2\",null,\"WHOAMI\"),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Lorem ipsum dolor sit amet, vehicula a. Ultricies nec, velit tellus. Lectus id, in consequat, ridiculus porttitor vel. Massa sit, quam non wisi. Quis pellentesque lacus, quisque magna, vestibulum amet. Odio lectus accumsan, augue elementum et.\")),React.createElement(\"div\",{className:\"image-box1\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatar1Image,alt:\"avatar\"}))),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"image-box\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatarImage,alt:\"avatar\"})),React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Borned and raised in a small town with big-city work ethics, I am a self-taught software engineer, who is mature beyond my years, with six years of work experience. Having an awesome mentor plus self-employed experiences, the contractor sends me to Hokkaido as a representative for the project. My experience working with multinational helped shape my logical thinking.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+      "source": "import React from\"react\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import avatarImage from\"../assets/avatar.jpg\";import avatar1Image from\"../assets/avatar1.jpg\";import\"./about.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"about-page\"},React.createElement(\"h2\",null,\"WHOAMI\"),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"I believe that constant learning and self-improvement are basis for a healthy life and a succesful career. With this in mind, studying and reading books are some of the activities that consume most of my daily life. Enhancing interpersonal skills and finding humanity are also good ways to evolve as a person and a professional, so meeting friends and co-workers have a big importance for me\")),React.createElement(\"div\",{className:\"image-box1\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatar1Image,alt:\"avatar\"}))),React.createElement(\"div\",{className:\"introduction-section\"},React.createElement(\"div\",{className:\"image-box\"},React.createElement(\"img\",{className:\"avatar-image\",src:avatarImage,alt:\"avatar\"})),React.createElement(\"div\",{className:\"text-box\"},React.createElement(\"p\",null,\"Borned and raised in a small town with big-city work ethics, I am a self-taught software engineer, who is mature beyond my years, with six years of work experience. Having an awesome mentor plus self-employed experiences, the contractor sends me to Hokkaido as a representative for the project. My experience working with multinational helped shape my logical thinking.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
     },
     {
       "id": 57,
@@ -28057,7 +28093,7 @@
       "name": "/Users/ryotogashi/portfolio/src/pages/index.js",
       "index": 155,
       "index2": 158,
-      "size": 838,
+      "size": 773,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28117,7 +28153,7 @@
         "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
       ],
       "depth": 3,
-      "source": "import React from\"react\";import backgroundImage from\"../assets/background.jpg\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./index.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"main-page\"},React.createElement(\"div\",{className:\"main-div\"},React.createElement(\"img\",{className:\"main-image\",src:backgroundImage,alt:\"main image\"}),React.createElement(\"div\",{className:\"text-content\"},React.createElement(\"div\",{className:\"text\"},\"Hi. I\\u2019m a Software Developer from Japan. \",React.createElement(\"br\",null),\"I want to help you to build the product.\")))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+      "source": "import React from\"react\";import backgroundImage from\"../assets/background.jpg\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./index.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"main-page\"},React.createElement(\"img\",{className:\"main-image\",src:backgroundImage,alt:\"main image\"}),React.createElement(\"div\",{className:\"text-content\"},React.createElement(\"h2\",null,\"Hi. I\\u2019m a Software Developer from Japan. \",React.createElement(\"br\",null),\"I want to help you to build the product.\"))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
     },
     {
       "id": 59,
@@ -28578,7 +28614,7 @@
       "name": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
       "index": 159,
       "index2": 164,
-      "size": 1530,
+      "size": 1878,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -28637,7 +28673,7 @@
           "name": "/Users/ryotogashi/portfolio/src/pages/projects.js",
           "index": 159,
           "index2": 164,
-          "size": 632,
+          "size": 708,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -28695,7 +28731,7 @@
             "ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: /Users/ryotogashi/portfolio/artifacts/react-static-templates.js (referenced with import(), require.resolve)"
           ],
           "depth": 3,
-          "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",null,\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
+          "source": "import React from\"react\";import ProjectCard from\"../components/project-card/project-card\";import Header from\"../components/header/header\";import ContactMe from\"../components/contact-me/contact-me\";import Footer from\"../components/footer/footer\";import\"./projects.scss\";export default(function(){return React.createElement(\"div\",null,React.createElement(Header,null),React.createElement(\"div\",{className:\"projects-page\"},React.createElement(\"h2\",null,\"PROJECTS\"),React.createElement(\"div\",{className:\"project-card-box\"},React.createElement(ProjectCard,null),React.createElement(ProjectCard,null),React.createElement(ProjectCard,null))),React.createElement(ContactMe,null),React.createElement(Footer,null));});"
         },
         {
           "id": null,
@@ -28703,7 +28739,7 @@
           "name": "/Users/ryotogashi/portfolio/src/components/project-card/project-card.jsx",
           "index": 160,
           "index2": 161,
-          "size": 843,
+          "size": 1115,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -28756,6 +28792,24 @@
               "type": "harmony import specifier",
               "userRequest": "../components/project-card/project-card",
               "loc": "1:539-550"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "type": "harmony import specifier",
+              "userRequest": "../components/project-card/project-card",
+              "loc": "1:577-588"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/ryotogashi/portfolio/node_modules/babel-loader/lib/index.js??ref--4-oneOf-1-0!/Users/ryotogashi/portfolio/node_modules/react-hot-loader/webpack.js!/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "module": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js",
+              "type": "harmony import specifier",
+              "userRequest": "../components/project-card/project-card",
+              "loc": "1:615-626"
             }
           ],
           "usedExports": [
@@ -28766,7 +28820,7 @@
           ],
           "optimizationBailout": [],
           "depth": 4,
-          "source": "import _classCallCheck from\"@babel/runtime/helpers/classCallCheck\";import _createClass from\"@babel/runtime/helpers/createClass\";import _possibleConstructorReturn from\"@babel/runtime/helpers/possibleConstructorReturn\";import _getPrototypeOf from\"@babel/runtime/helpers/getPrototypeOf\";import _inherits from\"@babel/runtime/helpers/inherits\";import React,{Component}from\"react\";import\"./project-card.scss\";var ProjectCard=/*#__PURE__*/function(_Component){_inherits(ProjectCard,_Component);function ProjectCard(){_classCallCheck(this,ProjectCard);return _possibleConstructorReturn(this,_getPrototypeOf(ProjectCard).apply(this,arguments));}_createClass(ProjectCard,[{key:\"render\",value:function render(){return React.createElement(\"div\",{className:\"project-card box-shadow\"},\"card\");}}]);return ProjectCard;}(Component);export default ProjectCard;"
+          "source": "import _classCallCheck from\"@babel/runtime/helpers/classCallCheck\";import _createClass from\"@babel/runtime/helpers/createClass\";import _possibleConstructorReturn from\"@babel/runtime/helpers/possibleConstructorReturn\";import _getPrototypeOf from\"@babel/runtime/helpers/getPrototypeOf\";import _inherits from\"@babel/runtime/helpers/inherits\";import React,{Component}from\"react\";import\"./project-card.scss\";var ProjectCard=/*#__PURE__*/function(_Component){_inherits(ProjectCard,_Component);function ProjectCard(props){var _this;_classCallCheck(this,ProjectCard);_this=_possibleConstructorReturn(this,_getPrototypeOf(ProjectCard).call(this,props));_this.state={isActive:false};return _this;}_createClass(ProjectCard,[{key:\"onClickHandler\",value:function onClickHandler(){console.log(\"clicked\");this.setState({isActive:!isActive});if(this.state.isActive){console.log(\"active\");}else{console.log(\"inactive\");}}},{key:\"render\",value:function render(){return React.createElement(\"div\",{className:\"project-card box-shadow\",onClick:this.onClickHandler},\"card\");}}]);return ProjectCard;}(Component);export default ProjectCard;"
         }
       ],
       "filteredModules": 0
@@ -34345,7 +34399,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "../components/contact-me/contact-me",
-          "loc": "1:1676-1685"
+          "loc": "1:1824-1833"
         },
         {
           "moduleId": 58,
@@ -34363,7 +34417,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "../components/contact-me/contact-me",
-          "loc": "1:785-794"
+          "loc": "1:720-729"
         },
         {
           "moduleId": 60,
@@ -34399,7 +34453,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/contact-me/contact-me",
-          "loc": "1:579-588"
+          "loc": "1:655-664"
         }
       ],
       "usedExports": [
@@ -34558,7 +34612,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "../components/footer/footer",
-          "loc": "1:1712-1718"
+          "loc": "1:1860-1866"
         },
         {
           "moduleId": 58,
@@ -34576,7 +34630,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "../components/footer/footer",
-          "loc": "1:821-827"
+          "loc": "1:756-762"
         },
         {
           "moduleId": 60,
@@ -34612,7 +34666,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/projects.js + 1 modules",
           "type": "harmony import specifier",
           "userRequest": "../components/footer/footer",
-          "loc": "1:615-621"
+          "loc": "1:691-697"
         }
       ],
       "usedExports": [
@@ -35011,7 +35065,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "../assets/avatar.jpg",
-          "loc": "1:1174-1185"
+          "loc": "1:1322-1333"
         }
       ],
       "usedExports": [
@@ -35086,7 +35140,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/about.js",
           "type": "harmony import specifier",
           "userRequest": "../assets/avatar1.jpg",
-          "loc": "1:977-989"
+          "loc": "1:1125-1137"
         }
       ],
       "usedExports": [
@@ -35161,7 +35215,7 @@
           "moduleName": "/Users/ryotogashi/portfolio/src/pages/index.js",
           "type": "harmony import specifier",
           "userRequest": "../assets/background.jpg",
-          "loc": "1:505-520"
+          "loc": "1:456-471"
         }
       ],
       "usedExports": [
@@ -36706,7 +36760,7 @@
       "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/app.scss (1)",
       "index": 130,
       "index2": 125,
-      "size": 219,
+      "size": 277,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -36830,7 +36884,7 @@
       "name": "css /Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/pages/index.scss",
       "index": 158,
       "index2": 156,
-      "size": 355,
+      "size": 601,
       "built": false,
       "optional": false,
       "prefetched": false,
@@ -37393,14 +37447,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 2899,
+          "size": 2957,
           "names": [
             "extract-css-chunks-webpack-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "581e57a15a39ce224dc0",
+          "hash": "ad2c52b034b553ea93c1",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -37412,7 +37466,7 @@
               "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/app.scss",
               "index": 0,
               "index2": 1,
-              "size": 493,
+              "size": 551,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -37445,7 +37499,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.id, \"@import url(`https://fonts.googleapis.com/css?family=Dancing+Script&display=swap`);\", \"\"]);\n\n// Module\nexports.push([module.id, \"*{scroll-behavior:smooth}body{font-family:\\\"Lato\\\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\\\"Playfair Display\\\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}\\n\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.id, \"@import url(`https://fonts.googleapis.com/css?family=Dancing+Script&display=swap`);\", \"\"]);\n\n// Module\nexports.push([module.id, \"*{scroll-behavior:smooth}body{font-family:\\\"Lato\\\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\\\"Playfair Display\\\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}.container{width:100vw;display:flex;flex-direction:column}\\n\", \"\"]);\n\n"
             },
             {
               "id": 1,
@@ -37515,7 +37569,7 @@
           "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/app.scss",
           "index": 0,
           "index2": 1,
-          "size": 493,
+          "size": 551,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -37548,7 +37602,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.id, \"@import url(`https://fonts.googleapis.com/css?family=Dancing+Script&display=swap`);\", \"\"]);\n\n// Module\nexports.push([module.id, \"*{scroll-behavior:smooth}body{font-family:\\\"Lato\\\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\\\"Playfair Display\\\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}\\n\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Imports\nexports.push([module.id, \"@import url(`https://fonts.googleapis.com/css?family=Dancing+Script&display=swap`);\", \"\"]);\n\n// Module\nexports.push([module.id, \"*{scroll-behavior:smooth}body{font-family:\\\"Lato\\\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\\\"Playfair Display\\\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}.container{width:100vw;display:flex;flex-direction:column}\\n\", \"\"]);\n\n"
         },
         {
           "id": 1,
@@ -37908,7 +37962,7 @@
           "files": [
             "*"
           ],
-          "hash": "4cb9819f5272a89c9303",
+          "hash": "78dc09a7a55c5d53e76a",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -37953,7 +38007,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".footer{width:100%;text-align:center;margin-top:50px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\\n\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".footer{width:100%;text-align:center;margin-top:30px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\\n\", \"\"]);\n\n"
             },
             {
               "id": 1,
@@ -38056,7 +38110,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".footer{width:100%;text-align:center;margin-top:50px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\\n\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".footer{width:100%;text-align:center;margin-top:30px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\\n\", \"\"]);\n\n"
         },
         {
           "id": 1,
@@ -39171,14 +39225,14 @@
           "rendered": true,
           "initial": true,
           "entry": true,
-          "size": 2906,
+          "size": 3150,
           "names": [
             "extract-css-chunks-webpack-plugin"
           ],
           "files": [
             "*"
           ],
-          "hash": "81190a7ae3b93a69d505",
+          "hash": "3082b2220de398329848",
           "siblings": [],
           "parents": [],
           "children": [],
@@ -39190,7 +39244,7 @@
               "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/pages/index.scss",
               "index": 0,
               "index2": 1,
-              "size": 500,
+              "size": 744,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -39223,7 +39277,7 @@
                 "ModuleConcatenation bailout: Module is not an ECMAScript module"
               ],
               "depth": 0,
-              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".main-page{width:100%;text-align:center;margin-top:40px}.main-page .main-div .main-image{position:relative;width:40%;margin:auto;top:0%;left:20%}.main-page .main-div .text-content{position:relative;right:20%}.main-page .main-div .text-content .text{font-family:\\\"Playfair Display\\\";color:#0d1d2a;margin:0;font-size:36px;letter-spacing:2px;line-height:120%}\\n\", \"\"]);\n\n"
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".main-page{width:100%;text-align:center;position:relative;margin-top:40px;height:65vh;min-height:70vh}.main-page .main-image{position:absolute;width:40vw;right:10%}.main-page .text-content{position:absolute;width:55%;bottom:15%;left:4%}.main-page .text-content h2{margin:0;font-size:36px;letter-spacing:2px;line-height:120%}@media screen and (max-width: 768px){.main-page .main-image{min-width:60vw;position:relative;right:0}.main-page .text-content{position:relative;bottom:0;left:0;margin:50px auto auto auto}.main-page .text-content h2{margin:0;font-size:24px;letter-spacing:2px;line-height:120%}}\\n\", \"\"]);\n\n"
             },
             {
               "id": 1,
@@ -39293,7 +39347,7 @@
           "name": "/Users/ryotogashi/portfolio/node_modules/css-loader/dist/cjs.js??ref--4-oneOf-0-1!/Users/ryotogashi/portfolio/node_modules/postcss-loader/src??postcss!/Users/ryotogashi/portfolio/node_modules/sass-loader/dist/cjs.js??ref--4-oneOf-0-3!/Users/ryotogashi/portfolio/src/pages/index.scss",
           "index": 0,
           "index2": 1,
-          "size": 500,
+          "size": 744,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -39326,7 +39380,7 @@
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0,
-          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".main-page{width:100%;text-align:center;margin-top:40px}.main-page .main-div .main-image{position:relative;width:40%;margin:auto;top:0%;left:20%}.main-page .main-div .text-content{position:relative;right:20%}.main-page .main-div .text-content .text{font-family:\\\"Playfair Display\\\";color:#0d1d2a;margin:0;font-size:36px;letter-spacing:2px;line-height:120%}\\n\", \"\"]);\n\n"
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.id, \".main-page{width:100%;text-align:center;position:relative;margin-top:40px;height:65vh;min-height:70vh}.main-page .main-image{position:absolute;width:40vw;right:10%}.main-page .text-content{position:absolute;width:55%;bottom:15%;left:4%}.main-page .text-content h2{margin:0;font-size:36px;letter-spacing:2px;line-height:120%}@media screen and (max-width: 768px){.main-page .main-image{min-width:60vw;position:relative;right:0}.main-page .text-content{position:relative;bottom:0;left:0;margin:50px auto auto auto}.main-page .text-content h2{margin:0;font-size:24px;letter-spacing:2px;line-height:120%}}\\n\", \"\"]);\n\n"
         },
         {
           "id": 1,

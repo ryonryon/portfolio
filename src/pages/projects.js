@@ -11,7 +11,7 @@ export default () => (
   <div>
     <Header />
     <div className="projects-page">
-      <h2>PROJECTS</h2>
+      <h2 className="title">PROJECTS</h2>
       <div className="project-card-box">
         <ProjectCard />
         <ProjectCard />

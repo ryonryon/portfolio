@@ -32,7 +32,7 @@ export default () => (
   <div>
     <Header />
     <div className="skill-page">
-      <h2>SKILL</h2>
+      <h2 className="title">SKILL</h2>
       <div className="skill-card card-shadow">
         <SkillSet skillLogoSrc={`${javascriptLogo}`} skillName="Javascript" />
         <SkillSet skillLogoSrc={`${typescriptLogo}`} skillName="Typescript" />

@@ -1415,7 +1415,7 @@ __webpack_require__.r(__webpack_exports__);
     className: "introduction-section"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-box"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet, vehicula a. Ultricies nec, velit tellus. Lectus id, in consequat, ridiculus porttitor vel. Massa sit, quam non wisi. Quis pellentesque lacus, quisque magna, vestibulum amet. Odio lectus accumsan, augue elementum et.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "I believe that constant learning and self-improvement are basis for a healthy life and a succesful career. With this in mind, studying and reading books are some of the activities that consume most of my daily life. Enhancing interpersonal skills and finding humanity are also good ways to evolve as a person and a professional, so meeting friends and co-workers have a big importance for me")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "image-box1"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "avatar-image",
@@ -1481,17 +1481,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_header_header__WEBPACK_IMPORTED_MODULE_2__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "main-page"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "main-div"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "main-image",
     src: _assets_background_jpg__WEBPACK_IMPORTED_MODULE_1___default.a,
     alt: "main image"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "text-content"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "text"
-  }, "Hi. I\u2019m a Software Developer from Japan. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "I want to help you to build the product.")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_contact_me_contact_me__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer_footer__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Hi. I\u2019m a Software Developer from Japan. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "I want to help you to build the product."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_contact_me_contact_me__WEBPACK_IMPORTED_MODULE_3__[/* default */ "a"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_footer_footer__WEBPACK_IMPORTED_MODULE_4__[/* default */ "a"], null));
 });
 
 /***/ }),
@@ -1787,17 +1783,38 @@ var project_card_ProjectCard =
 function (_Component) {
   inherits_default()(ProjectCard, _Component);
 
-  function ProjectCard() {
+  function ProjectCard(props) {
+    var _this;
+
     classCallCheck_default()(this, ProjectCard);
 
-    return possibleConstructorReturn_default()(this, getPrototypeOf_default()(ProjectCard).apply(this, arguments));
+    _this = possibleConstructorReturn_default()(this, getPrototypeOf_default()(ProjectCard).call(this, props));
+    _this.state = {
+      isActive: false
+    };
+    return _this;
   }
 
   createClass_default()(ProjectCard, [{
+    key: "onClickHandler",
+    value: function onClickHandler() {
+      console.log("clicked");
+      this.setState({
+        isActive: !isActive
+      });
+
+      if (this.state.isActive) {
+        console.log("active");
+      } else {
+        console.log("inactive");
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       return external_react_default.a.createElement("div", {
-        className: "project-card box-shadow"
+        className: "project-card box-shadow",
+        onClick: this.onClickHandler
       }, "card");
     }
   }]);
@@ -1830,7 +1847,7 @@ var projects = __webpack_require__(88);
     className: "projects-page"
   }, external_react_default.a.createElement("h2", null, "PROJECTS"), external_react_default.a.createElement("div", {
     className: "project-card-box"
-  }, external_react_default.a.createElement(project_card_project_card, null))), external_react_default.a.createElement(contact_me["a" /* default */], null), external_react_default.a.createElement(footer["a" /* default */], null));
+  }, external_react_default.a.createElement(project_card_project_card, null), external_react_default.a.createElement(project_card_project_card, null), external_react_default.a.createElement(project_card_project_card, null))), external_react_default.a.createElement(contact_me["a" /* default */], null), external_react_default.a.createElement(footer["a" /* default */], null));
 });
 
 /***/ }),
@@ -2813,7 +2830,7 @@ exports = module.exports = __webpack_require__(4)(false);
 exports.push([module.i, "@import url(`https://fonts.googleapis.com/css?family=Dancing+Script&display=swap`);", ""]);
 
 // Module
-exports.push([module.i, "*{scroll-behavior:smooth}body{font-family:\"Lato\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\"Playfair Display\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}\n", ""]);
+exports.push([module.i, "*{scroll-behavior:smooth}body{font-family:\"Lato\";font-weight:300;font-size:16px;margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-family:\"Playfair Display\";color:#0d1d2a}a{text-decoration:none;color:#173f5b}img{max-width:100%}.container{width:100vw;display:flex;flex-direction:column}\n", ""]);
 
 
 
@@ -2843,7 +2860,7 @@ exports.push([module.i, ".contact-me{position:fixed;right:5%;bottom:5%;width:10%
 
 exports = module.exports = __webpack_require__(4)(false);
 // Module
-exports.push([module.i, ".footer{width:100%;text-align:center;margin-top:50px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\n", ""]);
+exports.push([module.i, ".footer{width:100%;text-align:center;margin-top:30px}.footer .contact-icon{width:24px;height:24px;margin:0 10px}.footer .copyright{color:#cad4d0;margin:16px 0}\n", ""]);
 
 
 
@@ -2863,7 +2880,7 @@ exports.push([module.i, ".about-page{width:100%;text-align:center}.about-page h2
 
 exports = module.exports = __webpack_require__(4)(false);
 // Module
-exports.push([module.i, ".main-page{width:100%;text-align:center;margin-top:40px}.main-page .main-div .main-image{position:relative;width:40%;margin:auto;top:0%;left:20%}.main-page .main-div .text-content{position:relative;right:20%}.main-page .main-div .text-content .text{font-family:\"Playfair Display\";color:#0d1d2a;margin:0;font-size:36px;letter-spacing:2px;line-height:120%}\n", ""]);
+exports.push([module.i, ".main-page{width:100%;text-align:center;position:relative;margin-top:40px;height:65vh;min-height:70vh}.main-page .main-image{position:absolute;width:40vw;right:10%}.main-page .text-content{position:absolute;width:55%;bottom:15%;left:4%}.main-page .text-content h2{margin:0;font-size:36px;letter-spacing:2px;line-height:120%}@media screen and (max-width: 768px){.main-page .main-image{min-width:60vw;position:relative;right:0}.main-page .text-content{position:relative;bottom:0;left:0;margin:50px auto auto auto}.main-page .text-content h2{margin:0;font-size:24px;letter-spacing:2px;line-height:120%}}\n", ""]);
 
 
 
