@@ -7,13 +7,16 @@ export default {
         path: "/index"
       },
       {
-        path: "/about"
+        path: "/about",
+        template: "src/pages/about/about"
       },
       {
-        path: "/skill"
+        path: "/skill",
+        template: "src/pages/skill/skill"
       },
       {
-        path: "/projects"
+        path: "/projects",
+        template: "src/pages/projects/projects"
       },
       {
         path: "/404",

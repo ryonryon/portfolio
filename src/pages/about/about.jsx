@@ -1,10 +1,10 @@
 import React from "react";
 
-import Header from "../components/header/header";
-import ContactMe from "../components/contact-me/contact-me";
-import Footer from "../components/footer/footer";
-import avatarImage from "../assets/avatar.jpg";
-import avatar1Image from "../assets/avatar1.jpg";
+import Header from "../../components/header/header";
+import ContactMe from "../../components/contact-me/contact-me";
+import Footer from "../../components/footer/footer";
+import avatarImage from "../../assets/avatar.jpg";
+import avatar1Image from "../../assets/avatar1.jpg";
 
 import "./about.scss";
 
