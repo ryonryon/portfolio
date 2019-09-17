@@ -61,3 +61,5 @@ bundle-stats.json
 .DS_Store
 
 /dist
+/artifacts
+/node_modules
