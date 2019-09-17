@@ -1,25 +1,23 @@
 import path from "path";
-import axios from "axios";
+// import axios from "axios";
 
 export default {
-  getRoutes: async () => {
-    const { data: posts } = await axios.get(
-      "https://jsonplaceholder.typicode.com/posts"
-    );
-
+  getRoutes: () => {
     return [
       {
-        path: "/blog",
-        getData: () => ({
-          posts
-        }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          template: "src/containers/Post",
-          getData: () => ({
-            post
-          })
-        }))
+        path: "/index"
+      },
+      {
+        path: "/about"
+      },
+      {
+        path: "/skill"
+      },
+      {
+        path: "/projects"
+      },
+      {
+        path: "/404"
       }
     ];
   },
