@@ -1,5 +1,4 @@
 import path from "path";
-// import axios from "axios";
 
 export default {
   getRoutes: () => {
@@ -17,7 +16,8 @@ export default {
         path: "/projects"
       },
       {
-        path: "/404"
+        path: "/404",
+        template: "src/containers/404"
       }
     ];
   },
