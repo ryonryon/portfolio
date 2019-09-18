@@ -1,10 +1,8 @@
 import React from "react";
 
-import Header from "../../components/header/header";
-import ContactMe from "../../components/contact-me/contact-me";
-import Footer from "../../components/footer/footer";
-import avatarImage from "../../assets/avatar.jpg";
-import avatar1Image from "../../assets/avatar1.jpg";
+import Header from "../components/header/header";
+import ContactMe from "../components/contact-me/contact-me";
+import Footer from "../components/footer/footer";
 
 import "./about.scss";
 
@@ -25,12 +23,16 @@ export default () => (
           </p>
         </div>
         <div className="image-box1">
-          <img className="avatar-image" src={avatar1Image} alt="avatar" />
+          <img
+            className="avatar-image"
+            src="/assets/avatar1.jpg"
+            alt="avatar"
+          />
         </div>
       </div>
       <div className="introduction-section">
         <div className="image-box">
-          <img className="avatar-image" src={avatarImage} alt="avatar" />
+          <img className="avatar-image" src="/assets/avatar.jpg" alt="avatar" />
         </div>
 
         <div className="text-box">

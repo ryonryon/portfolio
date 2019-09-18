@@ -1,9 +1,9 @@
 import React from "react";
 
-import ProjectCard from "../../components/project-card/project-card";
-import Header from "../../components/header/header";
-import ContactMe from "../../components/contact-me/contact-me";
-import Footer from "../../components/footer/footer";
+import ProjectCard from "../components/project-card/project-card";
+import Header from "../components/header/header";
+import ContactMe from "../components/contact-me/contact-me";
+import Footer from "../components/footer/footer";
 
 import "./projects.scss";
 
