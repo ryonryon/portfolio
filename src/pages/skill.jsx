@@ -1,26 +1,5 @@
 import React from "react";
 
-import javascriptLogo from "../assets/tech-logo/javascript.png";
-import typescriptLogo from "../assets/tech-logo/typescript.png"; // TODO
-import html5Logo from "../assets/tech-logo/html-5.png";
-import css3Logo from "../assets/tech-logo/css-3.png";
-import bootstrapLogo from "../assets/tech-logo/bootstrap.png";
-import csharpLogo from "../assets/tech-logo/c-sharp.png";
-import javaLogo from "../assets/tech-logo/java.png";
-import firebaseLogo from "../assets/tech-logo/firebase.png";
-import githubLogo from "../assets/tech-logo/github.png";
-import slackLogo from "../assets/tech-logo/slack.png";
-import sketchLogo from "../assets/tech-logo/sketch.png";
-import reactLogo from "../assets/tech-logo/react.png";
-import nodejsLogo from "../assets/tech-logo/nodejs.png";
-import dartLogo from "../assets/tech-logo/dart.png";
-import flutterLogo from "../assets/tech-logo/flutter.png";
-import pythonLogo from "../assets/tech-logo/python.png";
-import swiftLogo from "../assets/tech-logo/swift.png";
-import sqlLogo from "../assets/tech-logo/sql.png";
-import babelLogo from "../assets/tech-logo/babel.png";
-import webpackLogo from "../assets/tech-logo/webpack.png";
-
 import SkillSet from "../components/skill-set/skill-set";
 import Header from "../components/header/header";
 import ContactMe from "../components/contact-me/contact-me";
@@ -34,28 +13,73 @@ export default () => (
     <div className="skill-page">
       <h2 className="title">SKILL</h2>
       <div className="skill-card card-shadow">
-        <SkillSet skillLogoSrc={`${javascriptLogo}`} skillName="Javascript" />
-        <SkillSet skillLogoSrc={`${typescriptLogo}`} skillName="Typescript" />
-        <SkillSet skillLogoSrc={`${html5Logo}`} skillName="HTML5" />
-        <SkillSet skillLogoSrc={`${css3Logo}`} skillName="CSS" />
-        <SkillSet skillLogoSrc={`${bootstrapLogo}`} skillName="Bootstrap" />
-        <SkillSet skillLogoSrc={`${reactLogo}`} skillName="React" />
-        <SkillSet skillLogoSrc={`${nodejsLogo}`} skillName="Nodejs" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/javascript.png"
+          skillName="Javascript"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/typescript.png"
+          skillName="Typescript"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/html-5.png"
+          skillName="HTML5"
+        />
+        <SkillSet skillLogoSrc="/assets/tech-logo/css-3.png" skillName="CSS" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/bootstrap.png"
+          skillName="Bootstrap"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/react.png"
+          skillName="React"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/nodejs.png"
+          skillName="Nodejs"
+        />
         <br />
-        <SkillSet skillLogoSrc={`${dartLogo}`} skillName="Dart" />
-        <SkillSet skillLogoSrc={`${flutterLogo}`} skillName="Flutter" />
-        <SkillSet skillLogoSrc={`${pythonLogo}`} skillName="Python" />
-        <SkillSet skillLogoSrc={`${javaLogo}`} skillName="Java" />
-        <SkillSet skillLogoSrc={`${csharpLogo}`} skillName="C#" />
-        <SkillSet skillLogoSrc={`${swiftLogo}`} skillName="Swift" />
-        <SkillSet skillLogoSrc={`${sqlLogo}`} skillName="SQL" />
-        <SkillSet skillLogoSrc={`${firebaseLogo}`} skillName="Firebase" />
+        <SkillSet skillLogoSrc="/assets/tech-logo/dart.png" skillName="Dart" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/flutter.png"
+          skillName="Flutter"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/python.png"
+          skillName="Python"
+        />
+        <SkillSet skillLogoSrc="/assets/tech-logo/java.png" skillName="Java" />
+        <SkillSet skillLogoSrc="/assets/tech-logo/c-sharp.png" skillName="C#" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/swift.png"
+          skillName="Swift"
+        />
+        <SkillSet skillLogoSrc="/assets/tech-logo/sql.png" skillName="SQL" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/firebase.png"
+          skillName="Firebase"
+        />
         <br />
-        <SkillSet skillLogoSrc={`${webpackLogo}`} skillName="Webpack" />
-        <SkillSet skillLogoSrc={`${babelLogo}`} skillName="Babel" />
-        <SkillSet skillLogoSrc={`${githubLogo}`} skillName="Github" />
-        <SkillSet skillLogoSrc={`${slackLogo}`} skillName="Slack" />
-        <SkillSet skillLogoSrc={`${sketchLogo}`} skillName="Sketch" />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/webpack.png"
+          skillName="Webpack"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/babel.png"
+          skillName="Babel"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/github.png"
+          skillName="Github"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/slack.png"
+          skillName="Slack"
+        />
+        <SkillSet
+          skillLogoSrc="/assets/tech-logo/sketch.png"
+          skillName="Sketch"
+        />
       </div>
     </div>
     <ContactMe />
