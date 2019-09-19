@@ -60,3 +60,6 @@ bundle-stats.json
 /dist
 /artifacts
 /node_modules
+
+.cache
+/.firebase
