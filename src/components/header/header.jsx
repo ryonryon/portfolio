@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "components/Router";
-import logo from "../../assets/logo.png";
 
 import "./header.scss";
 
@@ -8,7 +7,7 @@ const Header = () => (
   <nav>
     <div className="header box-shadow">
       <Link className="logo-container" to="/">
-        <img src={logo} alt="logo image" />
+        <img src="/assets/logo.png" alt="logo image" />
       </Link>
       <div className="options">
         <Link to="/">Home</Link>

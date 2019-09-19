@@ -1,29 +1,6 @@
 import path from "path";
 
 export default {
-  getRoutes: () => {
-    return [
-      {
-        path: "/index"
-      },
-      {
-        path: "/about",
-        template: "src/pages/about/about"
-      },
-      {
-        path: "/skill",
-        template: "src/pages/skill/skill"
-      },
-      {
-        path: "/projects",
-        template: "src/pages/projects/projects"
-      },
-      {
-        path: "/404",
-        template: "src/containers/404"
-      }
-    ];
-  },
   plugins: [
     [
       require.resolve("react-static-plugin-source-filesystem"),
@@ -36,7 +13,7 @@ export default {
     [
       "react-static-plugin-sass",
       {
-        includePaths: ["..."] // always includes `src/`
+        includePaths: ["..."]
       }
     ]
   ]
