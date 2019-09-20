@@ -1,32 +1,42 @@
 .about-page {
   width: 100%;
-  text-align: center;
 
-  .introduction-section {
+  .column {
     display: flex;
     flex-direction: row;
     width: 80%;
-    margin: 6em auto;
+    margin: 3em auto;
 
-    .image-box {
-      .avatar-image {
-        width: 70%;
-      }
-    }
-    .image-box1 {
-      width: 1000px;
+    .image {
+      flex-grow: 1;
+      margin: auto 2em;
 
       .avatar-image {
-        width: 100%;
+        width: 1050px;
       }
     }
 
-    .text-box {
+    .text {
+      flex-grow: 4;
+
       p {
         font-size: 1.6rem;
         text-align: left;
         letter-spacing: 2px;
         line-height: 130%;
+      }
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .column {
+      flex-direction: column;
+
+      .image {
+        order: 0;
+      }
+      .text {
+        order: 1;
       }
     }
   }
