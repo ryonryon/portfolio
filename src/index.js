@@ -7,6 +7,7 @@ import App from "./App";
 export default App;
 
 if (typeof document !== "undefined") {
+  document.title = "Ryo Togashi";
   const target = document.getElementById("root");
 
   const renderMethod = target.hasChildNodes()

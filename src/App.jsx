@@ -5,10 +5,6 @@ import { Router } from "components/Router";
 import "./app.scss";
 
 class App extends React.Component {
-  componentWillMount() {
-    document.title = "Ryo Togashi";
-  }
-
   render = () => (
     <Root>
       <div className="content">
