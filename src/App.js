@@ -4,8 +4,12 @@ import { Router } from "components/Router";
 
 import "./app.scss";
 
-function App() {
-  return (
+class App extends React.Component {
+  componentWillMount() {
+    document.title = "Ryo Togashi";
+  }
+
+  render = () => (
     <Root>
       <div className="content">
         <React.Suspense fallback={<em>Loading...</em>}>
