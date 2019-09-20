@@ -12,8 +12,8 @@ class about extends React.Component {
       <Header />
       <div className="about-page">
         <h2 className="title">WHOAMI</h2>
-        <div className="introduction-section">
-          <div className="text-box">
+        <div className="column">
+          <div className="text">
             <p>
               I believe that constant learning and self-improvement are basis
               for a healthy life and a succesful career. With this in mind,
@@ -24,7 +24,7 @@ class about extends React.Component {
               importance for me
             </p>
           </div>
-          <div className="image-box1">
+          <div className="image">
             <img
               className="avatar-image"
               src="/assets/avatar1.jpg"
@@ -32,8 +32,8 @@ class about extends React.Component {
             />
           </div>
         </div>
-        <div className="introduction-section">
-          <div className="image-box">
+        <div className="column">
+          <div className="image">
             <img
               className="avatar-image"
               src="/assets/avatar.jpg"
@@ -41,7 +41,7 @@ class about extends React.Component {
             />
           </div>
 
-          <div className="text-box">
+          <div className="text">
             <p>
               Borned and raised in a small town with big-city work ethics, I am
               a self-taught software engineer, who is mature beyond my years,
