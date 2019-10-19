@@ -14,7 +14,7 @@ const Footer = () => (
       <img className="contact-icon" src="/assets/footer-logo/linkedin.png" />
     </a>
     <a
-      href={`https://firebasestorage.googleapis.com/v0/b/portfolio-ryotogashi.appspot.com/o/Ryo%20Togashi%20Resume.pdf?alt=media&token=2c64ffc6-61b5-471c-8ab1-7a57e40adfae`}
+      href={`https://firebasestorage.googleapis.com/v0/b/portfolio-ryotogashi.appspot.com/o/Ryo%20Togashi%20Resume.pdf?alt=media&token=d60ab779-a3a7-4074-b769-3aa77729cc8d`}
     >
       <img className="contact-icon" src="/assets/footer-logo/resume.png" />
     </a>
