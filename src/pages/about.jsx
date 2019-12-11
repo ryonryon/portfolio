@@ -1,62 +1,54 @@
 import React from "react";
 
 import Header from "../components/header/header";
-import ContactMe from "../components/contact-me/contact-me";
+// import ContactMe from "../components/contact-me/contact-me";
 import Footer from "../components/footer/footer";
+import AboutMePanel from "../components/about-me-panel/about-me-panel";
+import AboutPanel from "../components/about-panel/about-panel";
+// import { getAboutInfo } from "../services/contentful";
 
 import "./about.scss";
 
 class about extends React.Component {
-  render = () => (
-    <div>
-      <Header />
-      <div className="about-page">
-        <h2 className="title">WHOAMI</h2>
-        <div className="column">
-          <div className="text">
-            <p>
-              I believe that constant learning and self-improvement are basis
-              for a healthy life and a succesful career. With this in mind,
-              studying and reading books are some of the activities that consume
-              most of my daily life. Enhancing interpersonal skills and finding
-              humanity are also good ways to evolve as a person and a
-              professional, so meeting friends and co-workers have a big
-              importance for me
-            </p>
+  render = () => {
+    return (
+      <>
+        <Header />
+        <div className="about-page">
+          <div className="about-left-page">
+            <AboutMePanel
+              icon="/assets/avatar.png"
+              title="Ryo Togashi"
+              description="I am a Full-Stack Developer from Japan based in Vancouver. I would be happy to talk about new oppotunities and your ideas. Let’s talk!"
+            />
           </div>
-          <div className="image">
-            <img
-              className="avatar-image"
-              src="/assets/avatar1.jpg"
-              alt="avatar"
+          <div className="about-right-pane">
+            <AboutPanel
+              icon="/assets/collaborative.png"
+              title="Collaborative"
+              description="Willing to give an advice and always having positive behavior as a teammember."
+            />
+            <AboutPanel
+              icon="/assets/clean.png"
+              title="Clean"
+              description="Variable to Class name, structure even on the desk, my work should be clean and arganized."
+            />
+            <AboutPanel
+              icon="/assets/smile.png"
+              title="Smile"
+              description="It is my priority for working with people. Being happy while doing a job makes us successful."
+            />
+            <AboutPanel
+              icon="/assets/race-flag.png"
+              title="Initiative"
+              description="Having autonomy and great leadership to guide a team and cherish them."
             />
           </div>
         </div>
-        <div className="column">
-          <div className="image">
-            <img
-              className="avatar-image"
-              src="/assets/avatar.jpg"
-              alt="avatar"
-            />
-          </div>
-
-          <div className="text">
-            <p>
-              Borned and raised in a small town with big-city work ethics, I am
-              a self-taught software engineer, who is mature beyond my years,
-              with six years of work experience. Having an awesome mentor plus
-              self-employed experiences, the contractor sends me to Hokkaido as
-              a representative for the project. My experience working with
-              multinational helped shape my logical thinking.
-            </p>
-          </div>
-        </div>
-      </div>
-      <ContactMe />
-      <Footer />
-    </div>
-  );
+        <Footer />
+      </>
+    );
+  };
 }
 
 export default about;

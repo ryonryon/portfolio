@@ -1,0 +1,28 @@
+.about-me-panel {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-me-panel .panel-me-image {
+  position: relative;
+  margin: 16px auto;
+  height: 300px;
+  width: 300px;
+}
+
+.panel-me-image .panel-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-me-panel h3 {
+  width: 60%;
+  margin: 8px auto;
+}
+
+.about-me-panel p {
+  width: 60%;
+  margin: 8px auto;
+}
