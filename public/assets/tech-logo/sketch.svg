@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="13px" viewBox="0 0 12 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>sketch</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="37.234933%" gradientTransform="translate(0.500000,0.500000),scale(0.344262,1.000000),rotate(90.000000),translate(-0.500000,-0.500000)" id="radialGradient-1">
+            <stop stop-color="#2555AC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.259178322" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50.0000204%" cy="55.7315%" fx="50.0000204%" fy="55.7315%" r="31.5034579%" gradientTransform="translate(0.500000,0.557315),scale(0.354839,1.000000),rotate(90.000000),translate(-0.500000,-0.557315)" id="radialGradient-2">
+            <stop stop-color="#2555AC" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume-Letter" transform="translate(-503.000000, -516.000000)" fill-rule="nonzero">
+            <g id="Skills&amp;Tools" transform="translate(30.000000, 439.000000)">
+                <g id="Skills" transform="translate(5.000000, 30.500000)">
+                    <g id="Skill-Group6" transform="translate(468.000000, 0.000000)">
+                        <g id="Sketch" transform="translate(0.000000, 46.000000)">
+                            <g id="sketch" transform="translate(0.000000, 1.000000)">
+                                <ellipse id="Oval" fill="url(#radialGradient-1)" cx="6.05084746" cy="10.9322034" rx="3.10169492" ry="1.06779661"></ellipse>
+                                <ellipse id="Oval" fill="url(#radialGradient-2)" cx="6.05084746" cy="10.8305085" rx="1.57627119" ry="1"></ellipse>
+                                <polygon id="Path-5" fill="#2555AC" points="2.61695281 0.352583896 0 3.87338002 2.43895409 3.80011378"></polygon>
+                                <polygon id="Path-6" fill="#2555AC" points="2.13162821e-14 3.88988951 5.98986711 10.8562695 2.44067797 3.88988951"></polygon>
+                                <polygon id="Path-7" fill="#2555AC" points="2.61695281 0.352583896 2.55506308 3.73128742 6 0"></polygon>
+                                <polygon id="Path-8" fill="#2555AC" points="6 0 2.6440678 3.79730436 9.35488819 3.79730436"></polygon>
+                                <polygon id="Path-9" fill="#2555AC" points="2.56790384 3.88988951 6 10.8736619 9.42255112 3.88988951"></polygon>
+                                <polygon id="Path-10" fill="#2555AC" points="6 0 9.44305646 3.74271886 9.38090441 0.368925872"></polygon>
+                                <polygon id="Path-11" fill="#2555AC" points="9.38090441 0.368925872 9.57709992 3.79730436 11.9918164 3.87995428"></polygon>
+                                <polygon id="Path-12" fill="#2555AC" points="9.56829996 3.88988951 6.01726988 10.8562695 11.9918164 3.87995428"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -13,82 +13,83 @@ class skill extends React.Component {
       <div className="skill-page">
         <div className="skill-pane">
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/javascript.png"
+            skillLogoSrc="/assets/tech-logo/javascript.svg"
             skillName="Javascript"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/typescript.png"
+            skillLogoSrc="/assets/tech-logo/typescript.svg"
             skillName="Typescript"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/html-5.png"
+            skillLogoSrc="/assets/tech-logo/html-5.svg"
             skillName="HTML5"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/css-3.png"
+            skillLogoSrc="/assets/tech-logo/css-3.svg"
             skillName="CSS"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/bootstrap.png"
+            skillLogoSrc="/assets/tech-logo/bootstrap.svg"
             skillName="Bootstrap"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/react.png"
+            skillLogoSrc="/assets/tech-logo/react.svg"
             skillName="React"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/nodejs.png"
+            skillLogoSrc="/assets/tech-logo/nodejs.svg"
             skillName="Nodejs"
           />
-          <br />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/dart.png"
+            skillLogoSrc="/assets/tech-logo/dart.svg"
             skillName="Dart"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/flutter.png"
+            skillLogoSrc="/assets/tech-logo/flutter.svg"
             skillName="Flutter"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/python.png"
+            skillLogoSrc="/assets/tech-logo/python.svg"
             skillName="Python"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/java.png"
+            skillLogoSrc="/assets/tech-logo/java.svg"
             skillName="Java"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/c-sharp.png"
+            skillLogoSrc="/assets/tech-logo/c-sharp.svg"
             skillName="C#"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/swift.png"
-            skillName="Swift"
+            skillLogoSrc="/assets/tech-logo/graphql.svg"
+            skillName="GraphQL"
           />
-          <SkillSet skillLogoSrc="/assets/tech-logo/sql.png" skillName="SQL" />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/firebase.png"
+            skillLogoSrc="/assets/tech-logo/database.svg"
+            skillName="SQL"
+          />
+          <SkillSet
+            skillLogoSrc="/assets/tech-logo/firebase.svg"
             skillName="Firebase"
           />
-          <br />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/webpack.png"
+            skillLogoSrc="/assets/tech-logo/webpack.svg"
             skillName="Webpack"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/babel.png"
+            skillLogoSrc="/assets/tech-logo/babel.svg"
             skillName="Babel"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/github.png"
+            skillLogoSrc="/assets/tech-logo/github.svg"
             skillName="Github"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/slack.png"
+            skillLogoSrc="/assets/tech-logo/slack.svg"
             skillName="Slack"
           />
           <SkillSet
-            skillLogoSrc="/assets/tech-logo/sketch.png"
+            skillLogoSrc="/assets/tech-logo/sketch.svg"
             skillName="Sketch"
           />
         </div>

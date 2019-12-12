@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="17px" viewBox="0 0 12 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>Firebase</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Resume-Letter" transform="translate(-394.000000, -492.000000)" fill="#2555AC" fill-rule="nonzero">
+            <g id="Skills&amp;Tools" transform="translate(30.000000, 439.000000)">
+                <g id="Skills" transform="translate(5.000000, 30.500000)">
+                    <g id="Skill-Group5" transform="translate(359.000000, 0.000000)">
+                        <g id="Firebase" transform="translate(0.000000, 23.000000)">
+                            <g id="Path">
+                                <path d="M6.25367647,2.41360294 C6.11176471,2.13676471 5.71470588,2.13602941 5.57426471,2.41360294 L4.71139706,4.04080882 L0.00110294118,13.2341912 L7.74691632,5.32906888 L6.25367647,2.41360294 Z" opacity="0.7"></path>
+                                <path d="M2.72205882,0.201102941 C2.54889706,-0.120220588 2.06102941,-0.0389705882 2.00441176,0.320588235 L0.00110294118,13.2341912 L6.18551635,6.92466868 L2.72205882,0.201102941 Z" opacity="0.7"></path>
+                                <path d="M10.2422794,3.61691176 C10.1944853,3.32205882 9.83235294,3.20514706 9.62095588,3.41691176 L0.00110294118,13.2360294 L5.32426471,16.0352941 C5.66139706,16.2235294 6.07205882,16.2235294 6.40919118,16.0356618 L11.7647059,13.2371324 L10.2422794,3.61691176 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
