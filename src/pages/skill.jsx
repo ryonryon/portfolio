@@ -2,7 +2,6 @@ import React from "react";
 
 import SkillSet from "../components/skill-set/skill-set";
 import Header from "../components/header/header";
-import ContactMe from "../components/contact-me/contact-me";
 import Footer from "../components/footer/footer";
 
 import "./skill.scss";
@@ -12,8 +11,7 @@ class skill extends React.Component {
     <div>
       <Header />
       <div className="skill-page">
-        <h2 className="title">SKILL</h2>
-        <div className="skill-card card-shadow">
+        <div className="skill-pane">
           <SkillSet
             skillLogoSrc="/assets/tech-logo/javascript.png"
             skillName="Javascript"
@@ -95,7 +93,6 @@ class skill extends React.Component {
           />
         </div>
       </div>
-      <ContactMe />
       <Footer />
     </div>
   );
