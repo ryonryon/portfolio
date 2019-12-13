@@ -5,27 +5,21 @@ import "./project-card.scss";
 class ProjectCard extends Component {
   constructor(props) {
     super(props);
-
-    this.state = {
-      isActive: false
-    };
   }
-
-  onClickHandler = () => {
-    this.setState({
-      isActive: !this.state.isActive
-    });
-  };
 
   render() {
     return (
-      <div
-        className={`project-card box-shadow ${
-          this.state.isActive ? "active-card" : ""
-        }`}
-        onClick={this.onClickHandler}
-      >
-        card
+      <div className="project-card">
+        <figure>
+          <img
+            src={this.props.projectInfo.windowImage}
+            alt={`project image${this.props.projectInfo.id}`}
+          />
+          <figcaption>
+            <h3>{this.props.projectInfo.name}</h3>
+            <p>{`${this.props.projectInfo.technologyUsed.join(" / ")}`}</p>
+          </figcaption>
+        </figure>
       </div>
     );
   }

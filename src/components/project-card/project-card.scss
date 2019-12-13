@@ -1,18 +1,49 @@
 .project-card {
-  height: 300px;
-  width: 250px;
+  width: 330px;
+  height: 250px;
   margin: 16px;
-  padding: 16px;
+  padding: 0;
   cursor: pointer;
-}
-.box-shadow {
   box-shadow: 0 0 5px black;
+
+  figure {
+    position: relative;
+    height: 100%;
+
+    img {
+      position: absolute;
+      height: 100%;
+    }
+
+    figcaption {
+      position: absolute;
+      background-color: rgba(black, 0.3);
+      height: 100%;
+      width: 100%;
+
+      h3 {
+        color: white;
+        margin: 16px 0 0 16px;
+        opacity: 1;
+      }
+
+      p {
+        color: white;
+        margin: 8px 0 0 16px;
+      }
+    }
+  }
 }
 
-.active-card {
-  position: absolute;
-  margin: auto;
-  transform: scale(4.5, 2);
-  background-color: white;
-  z-index: 1;
+.project-card:hover {
+  box-shadow: 0 0 10px black;
 }
+
+.project-card figure {
+  margin: 0;
+}
+
+// .project-card img {
+//   filter: blur(1px);
+//   background-color: black;
+// }
