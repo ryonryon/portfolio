@@ -1,14 +1,16 @@
 import React from "react";
+import { useRouteData } from "react-static";
 
-// import "./project.scss";
+const Project = () => {
+  const { project } = useRouteData();
 
-class Project extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-  render() {
-    return <div>{`${this.props.is404}`}</div>;
-  }
-}
+  return (
+    <div>
+      <h1>{project.name}</h1>
+      <p>{project.description}</p>
+      <img src={`${project.windowImage}`} alt="image" />
+    </div>
+  );
+};
 
 export default Project;

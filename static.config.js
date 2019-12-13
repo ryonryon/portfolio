@@ -2,8 +2,6 @@ import path from "path";
 import dotenv from "dotenv";
 dotenv.config();
 
-import { makePageRoutes } from "react-static/node";
-
 export default {
   plugins: [
     [
@@ -82,26 +80,15 @@ export default {
     ];
 
     return [
-      ...makePageRoutes({
-        items: projects,
-        pageSize: projects.length,
-        route: {
-          path: "/project",
-          template: "src/components/project/project"
-        },
-        decorate: (items, pageIndex, totalPages) => ({
-          getData: () => ({
-            projects: items,
-            currentPage: pageIndex,
-            totalPages
-          }),
-          children: items.map(project => ({
-            path: `/${project.id}`,
-            template: "src/components/project/project",
-            getData: () => ({ project })
-          }))
-        })
-      })
+      {
+        path: "project",
+        template: "src/components/project/project",
+        children: projects.map(project => ({
+          path: `/${project.id}`,
+          template: "src/components/project/project",
+          getData: () => ({ project: project })
+        }))
+      }
     ];
   }
 };
