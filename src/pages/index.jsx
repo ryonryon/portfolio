@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../components/header/header";
-import ContactMe from "../components/contact-me/contact-me";
 import Footer from "../components/footer/footer";
 
 import "./index.scss";
@@ -22,7 +21,6 @@ class index extends React.Component {
           </h2>
         </div>
       </div>
-      <ContactMe />
       <Footer />
     </div>
   );

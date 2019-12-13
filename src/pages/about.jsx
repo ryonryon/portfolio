@@ -1,7 +1,6 @@
 import React from "react";
 
 import Header from "../components/header/header";
-// import ContactMe from "../components/contact-me/contact-me";
 import Footer from "../components/footer/footer";
 import AboutMePanel from "../components/about-me-panel/about-me-panel";
 import AboutPanel from "../components/about-panel/about-panel";
