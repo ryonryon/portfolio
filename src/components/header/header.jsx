@@ -6,8 +6,8 @@ import "./header.scss";
 const Header = () => (
   <nav>
     <div className="header box-shadow">
-      <Link className="logo-container" to="/">
-        <img src="/assets/logo.png" alt="logo image" />
+      <Link to="/">
+        <h1>Ryo Togashi</h1>
       </Link>
       <div className="options">
         <Link to="/">Home</Link>
