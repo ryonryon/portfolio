@@ -1,15 +1,28 @@
 import React from "react";
 import { useRouteData } from "react-static";
 
+import Header from "../../header/header";
+import Footer from "../../footer/footer";
+
+import "./project.scss";
+
 const Project = () => {
   const { project } = useRouteData();
 
   if (project) {
     return (
       <div>
-        <h1>{project.name}</h1>
-        <p>{project.description}</p>
-        <img src={`${project.windowImage}`} alt="image" />
+        <Header />
+        <section className="project-main">
+          <h1>{project.name}</h1>
+          <p>{project.description}</p>
+          <a href={project.url}>{project.url}</a>
+          <br />
+          <a href={project.github}>{project.github}</a>
+          <p>{project.technologyUsed.join(" / ")}</p>
+          <img src={`${project.windowImage}`} alt="image" />
+        </section>
+        <Footer />
       </div>
     );
   }
