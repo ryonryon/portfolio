@@ -7,6 +7,8 @@ import SkillSection from "../../skill-section/skill-section";
 import ProjectsSection from "../../projects-section/projects-section";
 import Footer from "../../footer/footer";
 
+import "./home.scss";
+
 const Home = () => {
   return (
     <>
