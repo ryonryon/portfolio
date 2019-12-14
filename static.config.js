@@ -82,7 +82,7 @@ export default {
     return [
       {
         path: "home",
-        template: "src/components/pages/projects/projects",
+        template: "src/components/pages/home/home",
         getData: () => ({ projects }),
         children: projects.map(project => ({
           path: `/${project.id}`,

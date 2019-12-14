@@ -1,20 +1,21 @@
 import React from "react";
+import { useRouteData } from "react-static";
 
 import ProjectCard from "../../project-card/project-card";
 import Header from "../../header/header";
 import Footer from "../../footer/footer";
+import MainSection from "../../main-section/main-section";
 
-import "./projects.scss";
+import "./home.scss";
 
-import { useRouteData } from "react-static";
-
-const Projects = () => {
+const Home = () => {
   const { projects } = useRouteData();
 
   if (projects) {
     return (
       <div>
         <Header />
+        <MainSection />
         <div className="projects-page">
           <div className="project-list">
             {projects.map(project => (
@@ -34,4 +35,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Home;
