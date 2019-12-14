@@ -9,7 +9,7 @@ import "./about-section.scss";
 class AboutSection extends React.Component {
   render = () => {
     return (
-      <div id="about-section-id" className="about-section">
+      <section id="about-section-id" className="about-section">
         <div className="about-left-section">
           <AboutMePanel
             icon="/assets/avatar.png"
@@ -39,7 +39,7 @@ class AboutSection extends React.Component {
             description="Having autonomy and great leadership to guide a team and cherish them."
           />
         </div>
-      </div>
+      </section>
     );
   };
 }

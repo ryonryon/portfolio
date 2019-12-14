@@ -5,7 +5,7 @@ import "./footer.scss";
 const Footer = () => {
   const now = new Date();
   return (
-    <div className="footer">
+    <footer className="footer">
       <a href="https://www.facebook.com/ryotogashi304">
         <img className="contact-icon" src="/assets/footer-logo/facebook.png" />
       </a>
@@ -23,7 +23,7 @@ const Footer = () => {
       <p className="copyright">
         Copyright © {now.getFullYear()} Ryo Togashi. All Right Reserved.
       </p>
-    </div>
+    </footer>
   );
 };
 

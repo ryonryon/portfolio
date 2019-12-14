@@ -6,7 +6,7 @@ import "./skill-section.scss";
 
 class SkillSection extends React.Component {
   render = () => (
-    <div id="skill-section-id" className="skill-section">
+    <section id="skill-section-id" className="skill-section">
       <div className="skill-pane">
         <SkillSet
           skillLogoSrc="/assets/tech-logo/javascript.svg"
@@ -77,7 +77,7 @@ class SkillSection extends React.Component {
           skillName="Sketch"
         />
       </div>
-    </div>
+    </section>
   );
 }
 
