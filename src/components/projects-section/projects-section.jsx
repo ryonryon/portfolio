@@ -10,11 +10,14 @@ const ProjectsSection = () => {
 
   if (projects) {
     return (
-      <section id="projects-section-id" className="projects-section">
-        <div className="project-list">
-          {projects.map(project => (
-            <ProjectCard key={project.id} projectInfo={project} />
-          ))}
+      <section id="projects-section-id">
+        <div className="projects-section">
+          <h1 className="section-title">Projects</h1>
+          <div className="project-list">
+            {projects.map(project => (
+              <ProjectCard key={project.id} projectInfo={project} />
+            ))}
+          </div>
         </div>
       </section>
     );

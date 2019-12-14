@@ -14,8 +14,11 @@ const Home = () => {
     <>
       <Header />
       <MainSection />
+      <hr />
       <AboutSection />
+      <hr />
       <SkillSection />
+      <hr />
       <ProjectsSection />
       <Footer />
     </>
