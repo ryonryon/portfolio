@@ -5,7 +5,7 @@ import "./main-section.scss";
 class MainSection extends React.Component {
   render = () => (
     <div>
-      <div className="main-page">
+      <div className="main-section">
         <img
           className="main-image"
           src="/assets/background.jpg"

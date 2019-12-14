@@ -9,8 +9,8 @@ import "./about-section.scss";
 class AboutSection extends React.Component {
   render = () => {
     return (
-      <div id="about-section" className="about-page">
-        <div className="about-left-page">
+      <div id="about-section-id" className="about-section">
+        <div className="about-left-section">
           <AboutMePanel
             icon="/assets/avatar.png"
             title="Ryo Togashi"
