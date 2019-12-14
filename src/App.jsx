@@ -2,8 +2,6 @@ import React from "react";
 import { Root, Routes } from "react-static";
 import { Router } from "components/Router";
 
-import "./app.scss";
-
 class App extends React.Component {
   render = () => (
     <Root>

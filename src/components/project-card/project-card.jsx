@@ -10,16 +10,18 @@ class ProjectCard extends Component {
   render() {
     return (
       <div className="project-card">
-        <figure>
-          <img
-            src={this.props.projectInfo.windowImage}
-            alt={`project image${this.props.projectInfo.id}`}
-          />
-          <figcaption>
-            <h3>{this.props.projectInfo.name}</h3>
-            <p>{`${this.props.projectInfo.technologyUsed.join(" / ")}`}</p>
-          </figcaption>
-        </figure>
+        <a className="button-a" href={`/project/${this.props.projectInfo.id}`}>
+          <figure>
+            <img
+              src={this.props.projectInfo.windowImage}
+              alt={`project image${this.props.projectInfo.id}`}
+            />
+            <figcaption>
+              <h3>{this.props.projectInfo.name}</h3>
+              <p>{`${this.props.projectInfo.technologyUsed.join(" / ")}`}</p>
+            </figcaption>
+          </figure>
+        </a>
       </div>
     );
   }

@@ -1,20 +1,18 @@
 import React from "react";
 
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
-import AboutMePanel from "../components/about-me-panel/about-me-panel";
-import AboutPanel from "../components/about-panel/about-panel";
+import AboutMePanel from "../about-me-panel/about-me-panel";
+import AboutPanel from "../about-panel/about-panel";
 // import { getAboutInfo } from "../services/contentful";
 
-import "./about.scss";
+import "./about-section.scss";
 
-class about extends React.Component {
+class AboutSection extends React.Component {
   render = () => {
     return (
-      <>
-        <Header />
-        <div className="about-page">
-          <div className="about-left-page">
+      <section id="about-section-id">
+        <h1 className="section-title">About Me</h1>
+        <div className="about-section">
+          <div className="about-left-section">
             <AboutMePanel
               icon="/assets/avatar.png"
               title="Ryo Togashi"
@@ -44,10 +42,9 @@ class about extends React.Component {
             />
           </div>
         </div>
-        <Footer />
-      </>
+      </section>
     );
   };
 }
 
-export default about;
+export default AboutSection;

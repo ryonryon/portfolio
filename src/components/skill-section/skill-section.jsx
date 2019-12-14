@@ -1,16 +1,14 @@
 import React from "react";
 
-import SkillSet from "../components/skill-set/skill-set";
-import Header from "../components/header/header";
-import Footer from "../components/footer/footer";
+import SkillSet from "../skill-set/skill-set";
 
-import "./skill.scss";
+import "./skill-section.scss";
 
-class skill extends React.Component {
+class SkillSection extends React.Component {
   render = () => (
-    <div>
-      <Header />
-      <div className="skill-page">
+    <section id="skill-section-id">
+      <h1 className="section-title">Skill</h1>
+      <div className="skill-section">
         <div className="skill-pane">
           <SkillSet
             skillLogoSrc="/assets/tech-logo/javascript.svg"
@@ -94,9 +92,8 @@ class skill extends React.Component {
           />
         </div>
       </div>
-      <Footer />
-    </div>
+    </section>
   );
 }
 
-export default skill;
+export default SkillSection;
