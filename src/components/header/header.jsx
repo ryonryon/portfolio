@@ -10,10 +10,9 @@ const Header = () => (
         <h1>Ryo Togashi</h1>
       </Link>
       <div className="options">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skill">Skill</Link>
-        <Link to="/projects">Projects</Link>
+        <a href="#about-section">About</a>
+        <a href="#skill-section">Skill</a>
+        <a href="#projects-section">Projects</a>
       </div>
     </div>
   </nav>

@@ -1,0 +1,17 @@
+.about-page {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  margin: 0 auto;
+
+  .about-left-page {
+    width: 50%;
+  }
+
+  .about-right-pane {
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+}
