@@ -20,7 +20,7 @@ const Project = () => {
           <br />
           <a href={project.github}>{project.github}</a>
           <p>{project.technologyUsed.join(" / ")}</p>
-          <img src={`${project.windowImage.fields.file.url}`} alt="image" />
+          <img src={`${project.windowImage}`} alt="image" />
         </section>
         <Footer />
       </div>

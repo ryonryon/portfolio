@@ -13,7 +13,7 @@ class ProjectCard extends Component {
         <a className="button-a" href={`/project/${this.props.projectInfo.id}`}>
           <figure>
             <img
-              src={this.props.projectInfo.windowImage.fields.file.url}
+              src={this.props.projectInfo.windowImage}
               alt={`project image${this.props.projectInfo.id}`}
             />
             <figcaption>

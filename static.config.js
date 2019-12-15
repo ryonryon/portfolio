@@ -1,6 +1,7 @@
 import path from "path";
 import dotenv from "dotenv";
 import { createClient } from "contentful";
+import Project from "./src/models/Project";
 dotenv.config();
 
 export default {
@@ -12,7 +13,17 @@ export default {
     const resProjects = await client.getEntries({
       content_type: process.env.CTF_TYPE_ID_PROJECTS
     });
-    const projects = resProjects.items.map(item => item.fields);
+    const projects = resProjects.items.map(item => {
+      return new Project(
+        item.fields.id,
+        item.fields.name,
+        item.fields.github,
+        `https:${item.fields.windowImage.fields.file.url}`,
+        item.fields.technologyUsed,
+        item.fields.description,
+        item.fields.Images
+      );
+    });
     console.log(projects);
 
     return [
