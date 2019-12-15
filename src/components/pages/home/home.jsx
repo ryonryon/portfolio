@@ -13,7 +13,6 @@ import "./home.scss";
 
 const Home = () => {
   const { projects } = useRouteData();
-  console.log(projects);
   return (
     <>
       <Header />
