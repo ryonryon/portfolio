@@ -4,8 +4,8 @@ import "./skill-set.scss";
 
 const SkillSet = ({ skillName, skillLogoSrc }) => (
   <div className="skill-set">
-    <img className="skill-logo" src={`${skillLogoSrc}`} />
-    <span className="skill-name">{skillName}</span>
+    <img src={`${skillLogoSrc}`} />
+    <p>{skillName}</p>
   </div>
 );
 

@@ -1,23 +1,20 @@
 nav {
+  height: 60px;
   width: 100%;
   background: #fff;
-
-  a {
-    color: #0d1d2a;
-    padding: 1rem;
-    display: inline-block;
-  }
+  position: fixed;
+  opacity: 0.8;
+  z-index: 2;
 
   .header {
-    height: 70px;
+    height: 60px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
 
-    .logo-container {
-      width: 70px;
-      padding: 12px;
+    h1 {
+      margin-left: 15px;
     }
 
     .options {
@@ -27,14 +24,16 @@ nav {
       align-items: center;
       justify-content: flex-end;
 
-      .option {
+      a {
+        color: #0d1d2a;
         padding: 10px 15px;
         cursor: pointer;
+        display: inline-block;
       }
     }
   }
 
   .box-shadow {
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 3px black;
   }
 }

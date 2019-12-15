@@ -6,14 +6,13 @@ import "./header.scss";
 const Header = () => (
   <nav>
     <div className="header box-shadow">
-      <Link className="logo-container" to="/">
-        <img src="/assets/logo.png" alt="logo image" />
+      <Link to="/">
+        <h1>Ryo Togashi</h1>
       </Link>
       <div className="options">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/skill">Skill</Link>
-        <Link to="/projects">Projects</Link>
+        <a href="#about-section-id">About</a>
+        <a href="#skill-section-id">Skill</a>
+        <a href="#projects-section-id">Projects</a>
       </div>
     </div>
   </nav>
