@@ -17,6 +17,7 @@ export default {
       return new Project(
         item.fields.id,
         item.fields.name,
+        item.fields.url,
         item.fields.github,
         `https:${item.fields.windowImage.fields.file.url}`,
         item.fields.technologyUsed,
