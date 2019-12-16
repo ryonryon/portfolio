@@ -14,13 +14,51 @@ const Project = () => {
       <div>
         <Header />
         <section className="project-main">
-          <h1>{project.name}</h1>
-          <p>{project.description}</p>
-          <a href={project.url}>{project.url}</a>
-          <br />
-          <a href={project.github}>{project.github}</a>
-          <p>{project.technologyUsed.join(" / ")}</p>
-          <img src={`${project.windowImage}`} alt="image" />
+          <div className="image">
+            <img src={`${project.windowImage}`} alt="image" />
+          </div>
+          <hr />
+          <div className="detail">
+            <div className="left-pane">
+              <div className="row">
+                <div className="col-title">
+                  <strong>Name</strong>
+                </div>
+                <div className="col-val">{project.name}</div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>URL</strong>
+                </div>
+                <div className="col-val">
+                  <a href={project.url}>{project.url}</a>
+                </div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>Github URL</strong>
+                </div>
+                <div className="col-val">
+                  <a href={project.github}>{project.github}</a>
+                </div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>Technology Used</strong>
+                </div>
+                <div className="col-val">
+                  {project.technologyUsed.join(" / ")}
+                </div>
+              </div>
+              <hr />
+            </div>
+            <div className="right-pane">
+              <p>{project.description}</p>
+            </div>
+          </div>
         </section>
         <Footer />
       </div>

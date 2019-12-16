@@ -1,5 +1,55 @@
 .project-main {
   padding-top: 60px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+
+  hr {
+    margin: 32px auto;
+  }
+
+  .image {
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .detail {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+
+    .left-pane {
+      width: 55%;
+      padding: 32px;
+
+      .row {
+        display: flex;
+        flex-flow: row nowrap;
+
+        .col-title {
+          width: 30%;
+        }
+
+        .col-val {
+          width: 70%;
+        }
+      }
+    }
+
+    .left-pane hr {
+      margin: 8px 0 12px 0;
+      width: 100%;
+    }
+
+    .right-pane {
+      width: 45%;
+      padding: 32px;
+
+      p {
+        margin: 0;
+        line-height: 28px;
+      }
+    }
+  }
 }
