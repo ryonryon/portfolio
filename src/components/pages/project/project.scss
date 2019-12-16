@@ -1,5 +1,40 @@
 .project-main {
   padding-top: 60px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+
+  hr {
+    margin: 32px auto;
+  }
+
+  .image {
+    width: 70%;
+    margin: 30px auto;
+  }
+
+  .detail {
+    width: 80%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 auto;
+
+    .left-pane {
+      width: 55%;
+      padding: 8px;
+
+      td {
+        padding: 4px;
+      }
+    }
+
+    .right-pane {
+      width: 45%;
+      padding: 8px;
+
+      p {
+        margin: 0;
+        line-height: 28px;
+      }
+    }
+  }
 }

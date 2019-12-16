@@ -14,13 +14,49 @@ const Project = () => {
       <div>
         <Header />
         <section className="project-main">
-          <h1>{project.name}</h1>
-          <p>{project.description}</p>
-          <a href={project.url}>{project.url}</a>
-          <br />
-          <a href={project.github}>{project.github}</a>
-          <p>{project.technologyUsed.join(" / ")}</p>
-          <img src={`${project.windowImage}`} alt="image" />
+          <div className="image">
+            <img src={`${project.windowImage}`} alt="image" />
+          </div>
+          <hr />
+          <div className="detail">
+            <div className="left-pane">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <strong>Name</strong>
+                    </td>
+                    <td>{project.name}</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>URL</strong>
+                    </td>
+                    <td>
+                      <a href={project.url}>{project.url}</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Github URL</strong>
+                    </td>
+                    <td>
+                      <a href={project.github}>{project.github}</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <strong>Technology Used</strong>
+                    </td>
+                    <td>{project.technologyUsed.join(" / ")}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div className="right-pane">
+              <p>{project.description}</p>
+            </div>
+          </div>
         </section>
         <Footer />
       </div>
