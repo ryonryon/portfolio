@@ -9,7 +9,7 @@ import "./project.scss";
 const Project = () => {
   const { project } = useRouteData();
 
-  if (project) {
+  if (project !== undefined) {
     return (
       <div>
         <Header />

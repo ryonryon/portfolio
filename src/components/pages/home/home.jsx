@@ -7,9 +7,12 @@ import SkillSection from "../../skill-section/skill-section";
 import ProjectsSection from "../../projects-section/projects-section";
 import Footer from "../../footer/footer";
 
+import { useRouteData } from "react-static";
+
 import "./home.scss";
 
 const Home = () => {
+  const { projects } = useRouteData();
   return (
     <>
       <Header />
