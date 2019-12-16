@@ -20,16 +20,30 @@
 
     .left-pane {
       width: 55%;
-      padding: 8px;
+      padding: 32px;
 
-      td {
-        padding: 4px;
+      .row {
+        display: flex;
+        flex-flow: row nowrap;
+
+        .col-title {
+          width: 30%;
+        }
+
+        .col-val {
+          width: 70%;
+        }
       }
+    }
+
+    .left-pane hr {
+      margin: 4px 0 8px 0;
+      width: 100%;
     }
 
     .right-pane {
       width: 45%;
-      padding: 8px;
+      padding: 32px;
 
       p {
         margin: 0;

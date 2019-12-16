@@ -20,38 +20,40 @@ const Project = () => {
           <hr />
           <div className="detail">
             <div className="left-pane">
-              <table>
-                <tbody>
-                  <tr>
-                    <td>
-                      <strong>Name</strong>
-                    </td>
-                    <td>{project.name}</td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <strong>URL</strong>
-                    </td>
-                    <td>
-                      <a href={project.url}>{project.url}</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <strong>Github URL</strong>
-                    </td>
-                    <td>
-                      <a href={project.github}>{project.github}</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td>
-                      <strong>Technology Used</strong>
-                    </td>
-                    <td>{project.technologyUsed.join(" / ")}</td>
-                  </tr>
-                </tbody>
-              </table>
+              <div className="row">
+                <div className="col-title">
+                  <strong>Name</strong>
+                </div>
+                <div className="col-val">{project.name}</div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>URL</strong>
+                </div>
+                <div className="col-val">
+                  <a href={project.url}>{project.url}</a>
+                </div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>Github URL</strong>
+                </div>
+                <div className="col-val">
+                  <a href={project.github}>{project.github}</a>
+                </div>
+              </div>
+              <hr />
+              <div className="row">
+                <div className="col-title">
+                  <strong>Technology Used</strong>
+                </div>
+                <div className="col-val">
+                  {project.technologyUsed.join(" / ")}
+                </div>
+              </div>
+              <hr />
             </div>
             <div className="right-pane">
               <p>{project.description}</p>
