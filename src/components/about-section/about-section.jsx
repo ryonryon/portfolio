@@ -23,12 +23,12 @@ class AboutSection extends React.Component {
             <AboutPanel
               icon="/assets/collaborative.png"
               title="Collaborative"
-              description="Willing to give an advice and always having positive behavior as a teammember."
+              description="Willing to give advice and always having positive behavior as a team member."
             />
             <AboutPanel
               icon="/assets/clean.png"
               title="Clean"
-              description="Variable to Class name, structure even on the desk, my work should be clean and arganized."
+              description="Variable to Class name, structure even on the desk, my work should be clean and organized."
             />
             <AboutPanel
               icon="/assets/smile.png"
