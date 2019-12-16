@@ -2,6 +2,7 @@ export default class Project {
   constructor(
     id,
     name,
+    url,
     github,
     windowImage,
     technologyUsed,
@@ -10,6 +11,7 @@ export default class Project {
   ) {
     this.id = id;
     this.name = name;
+    this.url = url;
     this.github = github;
     this.windowImage = windowImage;
     this.technologyUsed = technologyUsed;
