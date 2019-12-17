@@ -10,6 +10,7 @@ import Footer from "../../footer/footer";
 import { useRouteData } from "react-static";
 
 import "./home.scss";
+import ContactSection from "../../contact-section/contact-section";
 
 const Home = () => {
   const { projects } = useRouteData();
@@ -22,7 +23,9 @@ const Home = () => {
       <hr />
       <SkillSection />
       <hr />
-      <ProjectsSection />
+      <ProjectsSection projects={projects} />
+      <hr />
+      <ContactSection />
       <Footer />
     </>
   );

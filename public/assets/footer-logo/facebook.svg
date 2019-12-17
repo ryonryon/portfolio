@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-235.000000, -882.000000)" fill="#4972AF" fill-rule="nonzero">
+            <g id="facebook" transform="translate(235.000000, 882.000000)">
+                <path d="M16,0 L2,0 C0.895,0 0,0.895 0,2 L0,16 C0,17.105 0.895,18 2,18 L9.621,18 L9.621,11.039 L7.278,11.039 L7.278,8.314 L9.621,8.314 L9.621,6.309 C9.621,3.985 11.042,2.718 13.116,2.718 C13.815,2.716 14.513,2.752 15.208,2.823 L15.208,5.253 L13.78,5.253 C12.65,5.253 12.43,5.787 12.43,6.575 L12.43,8.31 L15.13,8.31 L14.779,11.035 L12.414,11.035 L12.414,18 L16,18 C17.105,18 18,17.105 18,16 L18,2 C18,0.895 17.105,0 16,0 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

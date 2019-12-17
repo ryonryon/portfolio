@@ -2,6 +2,7 @@ import path from "path";
 import dotenv from "dotenv";
 import { createClient } from "contentful";
 import Project from "./src/models/Project";
+import Contact from "./src/models/Contact";
 dotenv.config();
 
 export default {
@@ -25,7 +26,6 @@ export default {
         item.fields.Images
       );
     });
-    console.log(projects);
 
     return [
       {
@@ -43,6 +43,17 @@ export default {
         template: "src/components/pages/404"
       }
     ];
+  },
+
+  getSiteData: async () => {
+    const contact = new Contact(
+      "ryo.togashi.ca@gmail.com",
+      "https://www.facebook.com/ryotogashi304",
+      "https://github.com/ryotogashi",
+      "https://www.linkedin.com/in/ryotogashi/",
+      "https://firebasestorage.googleapis.com/v0/b/portfolio-ryotogashi.appspot.com/o/Ryo%20Togashi%20Resume.pdf?alt=media&token=0a789015-4d63-471f-9b49-b9d3779709ed"
+    );
+    return { contact: contact };
   },
 
   plugins: [
