@@ -25,7 +25,6 @@ export default {
         item.fields.Images
       );
     });
-    console.log(projects);
 
     return [
       {
