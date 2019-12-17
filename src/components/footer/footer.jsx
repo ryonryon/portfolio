@@ -1,23 +1,23 @@
 import React from "react";
+import { useSiteData } from "react-static";
 
 import "./footer.scss";
 
 const Footer = () => {
+  const { contact } = useSiteData();
   const now = new Date();
   return (
     <footer className="footer">
-      <a href="https://www.facebook.com/ryotogashi304">
+      <a href={contact.facebook}>
         <img className="contact-icon" src="/assets/footer-logo/facebook.png" />
       </a>
-      <a href="https://github.com/ryotogashi">
+      <a href={contact.github}>
         <img className="contact-icon" src="/assets/footer-logo/github.png" />
       </a>
-      <a href="https://www.linkedin.com/in/ryotogashi/">
+      <a href={contact.linkedIn}>
         <img className="contact-icon" src="/assets/footer-logo/linkedin.png" />
       </a>
-      <a
-        href={`https://firebasestorage.googleapis.com/v0/b/portfolio-ryotogashi.appspot.com/o/Ryo%20Togashi%20Resume.pdf?alt=media&token=0a789015-4d63-471f-9b49-b9d3779709ed`}
-      >
+      <a href={contact.resume}>
         <img className="contact-icon" src="/assets/footer-logo/resume.png" />
       </a>
       <p className="copyright">
