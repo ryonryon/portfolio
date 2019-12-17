@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="116px" viewBox="0 0 144 116" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-570.000000, -834.000000)" fill="#4972AF">
+            <path d="M699,834 C707.284271,834 714,840.715729 714,849 L714,935 C714,943.284271 707.284271,950 699,950 L585,950 C576.715729,950 570,943.284271 570,935 L570,849 C570,840.715729 576.715729,834 585,834 L699,834 Z M699.435189,870.060396 L642,906.354699 L584.916226,870.060396 L584.916226,934.958045 L699.435189,934.958045 L699.435189,870.060396 Z M699.435189,849.620791 L584.916226,849.620791 L584.916226,854.342077 L642,890.5 L699.435189,854.342077 L699.435189,849.620791 Z" id="email"></path>
+        </g>
+    </g>
+</svg>
