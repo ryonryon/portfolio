@@ -8,7 +8,7 @@
   }
 
   .image {
-    width: 70%;
+    width: 80%;
     margin: 30px auto;
     text-align: center;
   }
@@ -21,6 +21,7 @@
 
     .left-pane {
       width: 55%;
+      margin: 0 auto;
       padding: 32px;
 
       .row {
@@ -44,11 +45,35 @@
 
     .right-pane {
       width: 45%;
+      margin: 0 auto;
       padding: 32px;
 
       p {
         margin: 0;
         line-height: 28px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .project-main {
+    .image {
+      width: 90%;
+    }
+    .detail {
+      flex-direction: column;
+
+      .left-pane {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+      }
+
+      .right-pane {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
       }
     }
   }

@@ -12,7 +12,7 @@ class AboutSection extends React.Component {
       <section id="about-section-id">
         <h1 className="section-title">About Me</h1>
         <div className="about-section">
-          <div className="about-left-section">
+          <div className="about-left-pane">
             <AboutMePanel
               icon="/assets/avatar.png"
               title="Ryo Togashi"
