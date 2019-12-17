@@ -23,19 +23,6 @@
       width: 55%;
       margin: 0 auto;
       padding: 32px;
-
-      .row {
-        display: flex;
-        flex-flow: row nowrap;
-
-        .col-title {
-          width: 30%;
-        }
-
-        .col-val {
-          width: 70%;
-        }
-      }
     }
 
     .left-pane hr {

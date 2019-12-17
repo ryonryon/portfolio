@@ -1,0 +1,12 @@
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+
+  .col-title {
+    width: 30%;
+  }
+
+  .col-val {
+    width: 70%;
+  }
+}
