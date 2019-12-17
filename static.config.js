@@ -47,7 +47,7 @@ export default {
 
   getSiteData: async () => {
     const contact = new Contact(
-      "ryo.togashi.ca@gmail.com",
+      "mailto:ryo.togashi.ca@gmail.com",
       "https://www.facebook.com/ryotogashi304",
       "https://github.com/ryotogashi",
       "https://www.linkedin.com/in/ryotogashi/",
