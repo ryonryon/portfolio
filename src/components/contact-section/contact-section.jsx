@@ -10,28 +10,25 @@ const ContactSection = () => {
       <h1 className="section-title">Contact</h1>
       <div className="contact-section">
         <a href={contact.email}>
-          <img
-            className="contact-icon"
-            src="/assets/footer-logo/facebook.png"
-          />
+          <img className="contact-icon" src="/assets/footer-logo/email.svg" />
         </a>
         <a href={contact.facebook}>
           <img
             className="contact-icon"
-            src="/assets/footer-logo/facebook.png"
+            src="/assets/footer-logo/facebook.svg"
           />
         </a>
         <a href={contact.github}>
-          <img className="contact-icon" src="/assets/footer-logo/github.png" />
+          <img className="contact-icon" src="/assets/footer-logo/github.svg" />
         </a>
         <a href={contact.linkedIn}>
           <img
             className="contact-icon"
-            src="/assets/footer-logo/linkedin.png"
+            src="/assets/footer-logo/linkedin.svg"
           />
         </a>
         <a href={contact.resume}>
-          <img className="contact-icon" src="/assets/footer-logo/resume.png" />
+          <img className="contact-icon" src="/assets/footer-logo/resume.svg" />
         </a>
       </div>
     </section>
