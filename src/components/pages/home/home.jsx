@@ -22,7 +22,7 @@ const Home = () => {
       <hr />
       <SkillSection />
       <hr />
-      <ProjectsSection />
+      <ProjectsSection projects={projects} />
       <Footer />
     </>
   );

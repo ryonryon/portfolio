@@ -1,12 +1,11 @@
 import React from "react";
-import { useRouteData } from "react-static";
 
 import ProjectCard from "../project-card/project-card";
 
 import "./projects-section.scss";
 
-const ProjectsSection = () => {
-  const { projects } = useRouteData();
+const ProjectsSection = props => {
+  const { projects } = props;
 
   if (projects) {
     return (
