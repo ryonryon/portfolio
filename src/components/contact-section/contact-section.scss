@@ -3,3 +3,9 @@
   text-align: center;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 960px) {
+  .contact-section {
+    width: 90%;
+  }
+}

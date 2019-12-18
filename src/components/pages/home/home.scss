@@ -1,4 +1,4 @@
-@import url(`https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap`);
+// @import url(`https://fonts.googleapis.com/css?family=Lato|Playfair+Display&display=swap`);
 
 * {
   scroll-behavior: smooth;
@@ -55,5 +55,10 @@ hr {
     width: 10%;
     margin: 40px auto;
     opacity: 0.3;
+  }
+
+  .section-title {
+    margin-left: 15%;
+    margin-bottom: 20px;
   }
 }

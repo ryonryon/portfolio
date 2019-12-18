@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p className="copyright">
-        Copyright © {now.getFullYear()} Ryo Togashi. All Right Reserved.
+        Copyright © {now.getFullYear()} Ryo Togashi. All Rights Reserved.
       </p>
     </footer>
   );

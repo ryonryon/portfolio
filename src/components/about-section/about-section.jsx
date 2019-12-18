@@ -16,7 +16,7 @@ class AboutSection extends React.Component {
             <AboutMePanel
               icon="/assets/avatar.png"
               title="Ryo Togashi"
-              description="I am a Full-Stack Developer from Japan based in Vancouver. I would be happy to talk about new oppotunities and your ideas. Let’s talk!"
+              description="I am a Full-Stack Developer from Japan, based in Vancouver. I would be happy to talk about new opportunities and your ideas. Let’s talk!"
             />
           </div>
           <div className="about-right-pane">
