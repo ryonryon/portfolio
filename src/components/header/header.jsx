@@ -24,10 +24,18 @@ const Header = () => (
         <a href="https://ryotogashi.com#contact">Contact</a>
       </div>
       <div className="burger-menu-options barger-menue-options-inactive">
-        <a href="https://ryotogashi.com#about">About</a>
-        <a href="https://ryotogashi.com#skill">Skill</a>
-        <a href="https://ryotogashi.com#projects">Projects</a>
-        <a href="https://ryotogashi.com#contact">Contact</a>
+        <a href="https://ryotogashi.com#about" onClick={onClick}>
+          About
+        </a>
+        <a href="https://ryotogashi.com#skill" onClick={onClick}>
+          Skill
+        </a>
+        <a href="https://ryotogashi.com#projects" onClick={onClick}>
+          Projects
+        </a>
+        <a href="https://ryotogashi.com#contact" onClick={onClick}>
+          Contact
+        </a>
       </div>
     </div>
   </nav>
