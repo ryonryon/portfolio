@@ -8,7 +8,7 @@ import "./contact-section.scss";
 const ContactSection = () => {
   const { contact } = useSiteData();
   return (
-    <section id="contact-section-id">
+    <section id="contact">
       <h1 className="section-title">Contact</h1>
       <div className="contact-section">
         <ContactLogo img="/assets/footer-logo/email.svg" url={contact.email} />
