@@ -1,9 +1,11 @@
 .skill-section {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
+}
 
-  .skill-pane {
-    width: 80%;
-    margin: 0 auto;
+@media screen and (max-width: 960px) {
+  .skill-section {
+    width: 90%;
   }
 }

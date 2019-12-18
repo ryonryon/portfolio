@@ -1,11 +1,16 @@
 .projects-section {
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
 
   .project-list {
-    width: 80%;
-    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .projects-section {
+    width: 90%;
   }
 }
