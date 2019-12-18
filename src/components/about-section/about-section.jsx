@@ -9,7 +9,7 @@ import "./about-section.scss";
 class AboutSection extends React.Component {
   render = () => {
     return (
-      <section id="about-section-id">
+      <section id="about">
         <h1 className="section-title">About Me</h1>
         <div className="about-section">
           <div className="about-left-pane">

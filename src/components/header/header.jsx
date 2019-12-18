@@ -1,19 +1,33 @@
 import React from "react";
-import { Link } from "components/Router";
 
 import "./header.scss";
+
+const onClick = () => {
+  const element = document.getElementsByClassName("burger-menu-options");
+  element[0].classList.toggle("barger-menue-options-inactive");
+  element[0].classList.toggle("barger-menue-options-active");
+};
 
 const Header = () => (
   <nav>
     <div className="header box-shadow">
-      <Link to="/">
+      <a href="https://ryotogashi.com">
         <h1>Ryo Togashi</h1>
-      </Link>
+      </a>
       <div className="options">
-        <a href="https://ryotogashi.com#about-section-id">About</a>
-        <a href="https://ryotogashi.com#skill-section-id">Skill</a>
-        <a href="https://ryotogashi.com#projects-section-id">Projects</a>
-        <a href="https://ryotogashi.com#contact-section-id">Contact</a>
+        <div className="burger-menu" onClick={onClick}>
+          <span></span>
+        </div>
+        <a href="https://ryotogashi.com#about">About</a>
+        <a href="https://ryotogashi.com#skill">Skill</a>
+        <a href="https://ryotogashi.com#projects">Projects</a>
+        <a href="https://ryotogashi.com#contact">Contact</a>
+      </div>
+      <div className="burger-menu-options barger-menue-options-inactive">
+        <a href="https://ryotogashi.com#about">About</a>
+        <a href="https://ryotogashi.com#skill">Skill</a>
+        <a href="https://ryotogashi.com#projects">Projects</a>
+        <a href="https://ryotogashi.com#contact">Contact</a>
       </div>
     </div>
   </nav>

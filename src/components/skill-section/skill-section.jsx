@@ -6,7 +6,7 @@ import "./skill-section.scss";
 
 class SkillSection extends React.Component {
   render = () => (
-    <section id="skill-section-id">
+    <section id="skill">
       <h1 className="section-title">Skill</h1>
       <div className="skill-section">
         <SkillSet

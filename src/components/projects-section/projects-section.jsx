@@ -8,7 +8,7 @@ const ProjectsSection = props => {
   const { projects } = props;
 
   return (
-    <section id="projects-section-id">
+    <section id="projects">
       <h1 className="section-title">Projects</h1>
       <div className="projects-section">
         <div className="project-list">
