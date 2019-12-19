@@ -52,6 +52,16 @@ hr {
   padding-top: 80px;
 }
 
+.section-title::after {
+  height: 3px;
+  width: 30px;
+  margin-top: 4px;
+  border-radius: 3px;
+  background: #0d1d2a;
+  display: block;
+  content: "";
+}
+
 @media screen and (max-width: 960px) {
   hr {
     width: 10%;
