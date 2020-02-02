@@ -5,13 +5,23 @@ import Project from "./src/models/Project";
 import Contact from "./src/models/Contact";
 dotenv.config();
 
-export default {
-  getRoutes: async () => {
-    const client = createClient({
+let client = null;
+
+const getClient = () => {
+  if (!client) {
+    client = createClient({
       space: process.env.CTF_SPACE_ID,
       accessToken: process.env.CTF_CDA_ACCESS_TOKEN
     });
-    const resProjects = await client.getEntries({
+  }
+
+  return client;
+};
+
+export default {
+  getRoutes: async () => {
+    const contentfulClient = getClient();
+    const resProjects = await contentfulClient.getEntries({
       content_type: process.env.CTF_TYPE_ID_PROJECTS
     });
     const projects = resProjects.items.map(item => {
@@ -46,12 +56,17 @@ export default {
   },
 
   getSiteData: async () => {
+    const contentfulClient = getClient();
+    const contactRes = await contentfulClient.getEntry({
+      content_type: process.env.CTF_TYPE_ID_CONTACT
+    });
+
     const contact = new Contact(
-      "mailto:ryo.togashi.ca@gmail.com",
-      "https://www.facebook.com/ryotogashi304",
-      "https://github.com/ryotogashi",
-      "https://www.linkedin.com/in/ryotogashi/",
-      "https://firebasestorage.googleapis.com/v0/b/portfolio-ryotogashi.appspot.com/o/Ryo%20Togashi%20Resume.pdf?alt=media&token=0a789015-4d63-471f-9b49-b9d3779709ed"
+      contactRes.fields.email,
+      contactRes.fields.facebook,
+      contactRes.fields.github,
+      contactRes.fields.linkedin,
+      contactRes.fields.resumePdf.fields.file.url
     );
     return { contact: contact };
   },
